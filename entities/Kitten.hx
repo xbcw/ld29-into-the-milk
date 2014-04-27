@@ -3,6 +3,7 @@ package entities;
 import com.haxepunk.graphics.Image;
 import com.haxepunk.masks.Pixelmask;
 import com.haxepunk.Entity;
+import com.haxepunk.HXP;
 
 class Kitten extends Enemy
 {
@@ -14,15 +15,16 @@ class Kitten extends Enemy
 		{
 			scene.remove(this);
 		}
-        graphic = new Image("graphics/kitty.png");
+        graphic = graphicKittyRight;
 		graphic.x = -8;
 		graphic.y = -10;
 		// mask = new Pixelmask("graphics/kitty.png", -32, -32);
         setHitbox(48, 52);
         type = "enemy";
-		velocityX = 2;
-		velocityY = 0;
+		velocityX = Math.random() * 4.0;
+		velocityY = Math.random() * 4.0;
 		stuck = false;
+		ttl = 3000;
 		
     }
 
@@ -42,6 +44,18 @@ class Kitten extends Enemy
 		var e:Entity = collide("terrain", x + velocityX, y);
 		if (e == null)
 		{
+			if (velocityX > 0)
+			{
+				graphic = graphicKittyRight;
+				graphic.x = -8;
+				graphic.y = -10;
+			}
+			else if (velocityX < 0)
+			{
+				graphic = graphicKittyLeft;
+				graphic.x = -8;
+				graphic.y = -10;
+			}
 			moveBy(velocityX, 0);
 			stuck = false;
 		}
@@ -57,14 +71,23 @@ class Kitten extends Enemy
 			stuck = true;
 		}
 		
-		if ( this.x < -32)
+		if ( this.x < -32 || ttl <= 0 )
 		{
 			scene.remove(this);
 		}
+		if (ttl % 250 == 0)
+		{
+			velocityX = Math.random() * 4.0;
+			velocityY = Math.random() * 4.0 * HXP.choose(-1, 1);
+		}
+		ttl--;
     }
 	
+	private var ttl:Int;
 	private var velocityX:Float;
 	private var velocityY:Float;
-	private var gravity:Float = 3;
+	private var gravity:Float = 1;
 	private var stuck:Bool;
+	private var graphicKittyRight:Image = new Image("graphics/kittyright.png");
+	private var graphicKittyLeft:Image = new Image("graphics/kittyleft.png");
 }
