@@ -16,12 +16,11 @@ class GameScene extends Scene
         super();
 		// HXP.world = new World_1_1();
     }
-/*    public override function update()
+    public override function update()
     {
         super.update();
-		HXP.world.update();
-    }*/
-    public override function begin()
+    }
+/*    public override function begin()
     {
 		var b:Backdrop = new Backdrop("graphics/milkbackground.png", true, true);
 		b.scrollX = 0.5;
@@ -54,5 +53,5 @@ class GameScene extends Scene
         spawnTimer = 1; // every second
     }
 
-    private var spawnTimer:Float;
+    private var spawnTimer:Float;*/
 }

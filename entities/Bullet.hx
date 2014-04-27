@@ -9,7 +9,7 @@ class Bullet extends Entity
     {
         super(x, y);
 
-        graphic = Image.createRect(16, 4);
+        graphic = Image.createRect(16, 4,0x000000);
         setHitbox(16, 4);
         type = "bullet";
 		ttl = 100;
@@ -17,14 +17,17 @@ class Bullet extends Entity
 
     public override function moveCollideX(e:Entity)
     {
-        scene.remove(e);
+		if (e.type == "enemy")
+		{
+			scene.remove(e);
+		}
         scene.remove(this);
         return true;
     }
 
     public override function update()
     {
-        moveBy(20, 0, "enemy");
+        moveBy(20, 0, ["enemy", "terrain"]);
 		
 		ttl--;
 		if (ttl <= 0)

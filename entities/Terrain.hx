@@ -4,6 +4,7 @@ import com.haxepunk.Entity;
 import com.haxepunk.graphics.Image;
 import com.haxepunk.utils.Key;
 import com.haxepunk.utils.Input;
+import assets.Assets;
 
 class Terrain extends Entity
 {
@@ -11,7 +12,8 @@ class Terrain extends Entity
 	{
 		super(x, y);
 		
-		graphic = new Image("graphics/block.png");
+		graphic = new Image(Assets.GRAPHIC_TERRAIN_BLOCK);
+		type = "terrain";
 	}
 	
 	public override function update()

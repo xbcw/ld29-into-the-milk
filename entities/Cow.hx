@@ -1,6 +1,7 @@
 package entities;
 
 import com.haxepunk.graphics.Image;
+import com.haxepunk.masks.Pixelmask;
 
 class Cow extends Enemy
 {
@@ -8,8 +9,11 @@ class Cow extends Enemy
     {
         super(x, y);
 
-        graphic = new Image("graphics/cow.png");
-        setHitbox(64, 32);
+        graphic = new Image("graphics/moocowleft.png");
+		graphic.x = -18;
+		graphic.y = -6;
+		//mask = new Pixelmask("graphics/moocowleft.png", -32, -16);
+        setHitbox(104, 57);
         type = "enemy";
     }
 

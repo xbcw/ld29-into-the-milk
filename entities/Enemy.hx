@@ -25,7 +25,7 @@ class Enemy extends Entity
     {
         moveBy( -5, 0, "player");
 		
-		if ( this.x < -32)
+		if ( this.x < -96)
 		{
 			scene.remove(this);
 		}

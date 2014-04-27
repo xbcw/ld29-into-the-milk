@@ -58,22 +58,58 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("font/04B_03__.ttf", Reflect.field (AssetType, "font".toUpperCase ()));
 		className.set ("graphics/block.png", __ASSET__graphics_block_png);
 		type.set ("graphics/block.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/bus.png", __ASSET__graphics_bus_png);
+		type.set ("graphics/bus.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/bus2.png", __ASSET__graphics_bus2_png);
+		type.set ("graphics/bus2.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/cow.png", __ASSET__graphics_cow_png);
 		type.set ("graphics/cow.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/cow2.png", __ASSET__graphics_cow2_png);
+		type.set ("graphics/cow2.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/drinkingstraw.jpg", __ASSET__graphics_drinkingstraw_jpg);
 		type.set ("graphics/drinkingstraw.jpg", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/drinkingstraw.png", __ASSET__graphics_drinkingstraw_png);
 		type.set ("graphics/drinkingstraw.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/glass.png", __ASSET__graphics_glass_png);
+		type.set ("graphics/glass.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/glassbottom.png", __ASSET__graphics_glassbottom_png);
+		type.set ("graphics/glassbottom.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/glassside.png", __ASSET__graphics_glassside_png);
+		type.set ("graphics/glassside.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/glasssquare.png", __ASSET__graphics_glasssquare_png);
+		type.set ("graphics/glasssquare.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/kitty.png", __ASSET__graphics_kitty_png);
 		type.set ("graphics/kitty.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/kitty64.png", __ASSET__graphics_kitty64_png);
+		type.set ("graphics/kitty64.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/milkbackground.png", __ASSET__graphics_milkbackground_png);
 		type.set ("graphics/milkbackground.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/Milkshipleft.png", __ASSET__graphics_milkshipleft_png);
+		type.set ("graphics/Milkshipleft.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/Milkshipright.png", __ASSET__graphics_milkshipright_png);
+		type.set ("graphics/Milkshipright.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/milktileset.png", __ASSET__graphics_milktileset_png);
+		type.set ("graphics/milktileset.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/mmcookie.png", __ASSET__graphics_mmcookie_png);
+		type.set ("graphics/mmcookie.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/mmcookielarge.png", __ASSET__graphics_mmcookielarge_png);
+		type.set ("graphics/mmcookielarge.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/Moocow.png", __ASSET__graphics_moocow_png);
+		type.set ("graphics/Moocow.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/moocowleft.png", __ASSET__graphics_moocowleft_png);
+		type.set ("graphics/moocowleft.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("graphics/normalcookie.png", __ASSET__graphics_normalcookie_png);
+		type.set ("graphics/normalcookie.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/plane.png", __ASSET__graphics_plane_png);
 		type.set ("graphics/plane.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("graphics/player.png", __ASSET__graphics_player_png);
 		type.set ("graphics/player.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("font/04B_03__.ttf", __ASSET__font_5);
 		type.set ("font/04B_03__.ttf", Reflect.field (AssetType, "font".toUpperCase ()));
+		className.set ("maps/world1.tmx", __ASSET__maps_world1_tmx);
+		type.set ("maps/world1.tmx", Reflect.field (AssetType, "binary".toUpperCase ()));
+		className.set ("maps/world2.tmx", __ASSET__maps_world2_tmx);
+		type.set ("maps/world2.tmx", Reflect.field (AssetType, "binary".toUpperCase ()));
 		
 		
 		#elseif html5
@@ -89,14 +125,32 @@ class DefaultAssetLibrary extends AssetLibrary {
 		addExternal("gfx/preloader/haxepunk.png", "image", "gfx/preloader/haxepunk.png");
 		addEmbed("font/04B_03__.ttf", "font", __ASSET__font_04b_03___ttf);
 		addExternal("graphics/block.png", "image", "graphics/block.png");
+		addExternal("graphics/bus.png", "image", "graphics/bus.png");
+		addExternal("graphics/bus2.png", "image", "graphics/bus2.png");
 		addExternal("graphics/cow.png", "image", "graphics/cow.png");
+		addExternal("graphics/cow2.png", "image", "graphics/cow2.png");
 		addExternal("graphics/drinkingstraw.jpg", "image", "graphics/drinkingstraw.jpg");
 		addExternal("graphics/drinkingstraw.png", "image", "graphics/drinkingstraw.png");
+		addExternal("graphics/glass.png", "image", "graphics/glass.png");
+		addExternal("graphics/glassbottom.png", "image", "graphics/glassbottom.png");
+		addExternal("graphics/glassside.png", "image", "graphics/glassside.png");
+		addExternal("graphics/glasssquare.png", "image", "graphics/glasssquare.png");
 		addExternal("graphics/kitty.png", "image", "graphics/kitty.png");
+		addExternal("graphics/kitty64.png", "image", "graphics/kitty64.png");
 		addExternal("graphics/milkbackground.png", "image", "graphics/milkbackground.png");
+		addExternal("graphics/Milkshipleft.png", "image", "graphics/Milkshipleft.png");
+		addExternal("graphics/Milkshipright.png", "image", "graphics/Milkshipright.png");
+		addExternal("graphics/milktileset.png", "image", "graphics/milktileset.png");
+		addExternal("graphics/mmcookie.png", "image", "graphics/mmcookie.png");
+		addExternal("graphics/mmcookielarge.png", "image", "graphics/mmcookielarge.png");
+		addExternal("graphics/Moocow.png", "image", "graphics/Moocow.png");
+		addExternal("graphics/moocowleft.png", "image", "graphics/moocowleft.png");
+		addExternal("graphics/normalcookie.png", "image", "graphics/normalcookie.png");
 		addExternal("graphics/plane.png", "image", "graphics/plane.png");
 		addExternal("graphics/player.png", "image", "graphics/player.png");
 		addEmbed("font/04B_03__.ttf", "font", __ASSET__font_5);
+		addExternal("maps/world1.tmx", "binary", "maps/world1.tmx");
+		addExternal("maps/world2.tmx", "binary", "maps/world2.tmx");
 		
 		
 		#else
@@ -565,14 +619,32 @@ class __ASSET__gfx_debug_console_visible_png extends flash.display.BitmapData { 
 class __ASSET__gfx_preloader_haxepunk_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__font_04b_03___ttf extends flash.text.Font { }
 class __ASSET__graphics_block_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_bus_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_bus2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_cow_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_cow2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_drinkingstraw_jpg extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_drinkingstraw_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_glass_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_glassbottom_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_glassside_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_glasssquare_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_kitty_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_kitty64_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_milkbackground_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_milkshipleft_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_milkshipright_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_milktileset_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_mmcookie_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_mmcookielarge_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_moocow_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_moocowleft_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__graphics_normalcookie_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_plane_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__graphics_player_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__font_5 extends flash.text.Font { }
+class __ASSET__maps_world1_tmx extends flash.utils.ByteArray { }
+class __ASSET__maps_world2_tmx extends flash.utils.ByteArray { }
 
 
 #elseif html5
@@ -595,7 +667,25 @@ class __ASSET__font_04b_03___ttf extends flash.text.Font { }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class __ASSET__font_5 extends flash.text.Font { }
+
+
 
 
 #end

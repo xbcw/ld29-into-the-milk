@@ -130,7 +130,28 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/bus.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/bus2.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/cow.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/cow2.png", loader);
 		total ++;
 		
 		
@@ -151,6 +172,34 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/glass.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/glassbottom.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/glassside.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/glasssquare.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/kitty.png", loader);
 		total ++;
 		
@@ -158,7 +207,42 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/kitty64.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/milk-vector.jpg", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/milkbackground.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/milktileset.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/Moocow.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/moocowleft.png", loader);
 		total ++;
 		
 		
@@ -177,6 +261,22 @@ class ApplicationMain {
 		
 		
 		
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world_1_1.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world_1_2.tmx", urlLoader);
+		total ++;
 		
 		
 		
