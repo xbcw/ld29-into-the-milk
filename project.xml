@@ -4,7 +4,7 @@
 
  	<app file="IntoTheMilk" main="Main" path="bin" />
 
-	<window fps="30" background="0x000000" />
+	<window fps="60" background="0x000000" />
 	<window width="1024" height="768" resizable="true" unless="mobile" />
 	<window fullscreen="true" if="mobile" />
 	<window orientation="landscape" vsync="true" antialiasing="0" if="cpp" />

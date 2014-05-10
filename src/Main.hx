@@ -1,5 +1,7 @@
 import com.haxepunk.Engine;
 import com.haxepunk.HXP;
+import entities.GV;
+import com.haxepunk.Sfx;
 
 class Main extends Engine
 {
@@ -11,7 +13,7 @@ class Main extends Engine
 #end
 		// HXP.scene = new scenes.GameScene();
 		player = new entities.Player(HXP.halfWidth, HXP.halfHeight);
-		HXP.world = new worlds.World1(player);
+		HXP.world = new worlds.World0(player);
 	}
 
 	public static function main() { new Main(); }

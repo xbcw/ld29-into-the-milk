@@ -4,6 +4,7 @@ import com.haxepunk.graphics.Image;
 import com.haxepunk.masks.Pixelmask;
 import com.haxepunk.Entity;
 import com.haxepunk.HXP;
+import entities.GV.PARTICLE_EMITTER;
 
 class Kitten extends Enemy
 {
@@ -18,7 +19,6 @@ class Kitten extends Enemy
         graphic = graphicKittyRight;
 		graphic.x = -8;
 		graphic.y = -10;
-		// mask = new Pixelmask("graphics/kitty.png", -32, -32);
         setHitbox(48, 52);
         type = "enemy";
 		velocityX = Math.random() * 4.0;
@@ -30,6 +30,18 @@ class Kitten extends Enemy
 
     public override function update()
     {
+		if (y < 128 || x < 0  || x > 2100)
+		{
+			gravity = 7;
+		}
+		else if (y < 160)
+		{
+			gravity = 2;
+		}
+		else
+		{
+			gravity = 1;
+		}
 		var e:Entity = collide("terrain", x, y + velocityY + gravity);
 		if (e == null)
 		{
@@ -64,6 +76,9 @@ class Kitten extends Enemy
 			// trace("Colliding with terrain on X");
 			if (stuck == true)
 			{
+				PARTICLE_EMITTER.explosion(x + Std.random(20), y + Std.random(20), 15);
+				PARTICLE_EMITTER.explosion(x-Std.random(20), y-Std.random(20), 15);
+				PARTICLE_EMITTER.explosion(x, y, 20);
 				scene.remove(this);
 			}
 			moveBy(0, 0);
@@ -71,8 +86,11 @@ class Kitten extends Enemy
 			stuck = true;
 		}
 		
-		if ( this.x < -32 || ttl <= 0 )
+		if (ttl <= 0 )
 		{
+			PARTICLE_EMITTER.explosion(x + Std.random(20), y + Std.random(20), 15);
+			PARTICLE_EMITTER.explosion(x-Std.random(20), y-Std.random(20), 15);
+			PARTICLE_EMITTER.explosion(x, y, 20);
 			scene.remove(this);
 		}
 		if (ttl % 250 == 0)

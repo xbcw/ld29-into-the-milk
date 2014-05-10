@@ -8,7 +8,9 @@ import com.haxepunk.Entity;
 import com.haxepunk.tmx.TmxEntity;
 import com.haxepunk.tmx.TmxMap;
 import entities.Cookie;
+import entities.GV;
 import flash.geom.Point;
+import entities.ParticleController;
 
 class World2 extends World
 {
@@ -22,8 +24,8 @@ class World2 extends World
 		e.graphic = b;
 		add(e);
 		
-		player.worldName.text = "World 2";
 		player.worldLevel = 2;
+		player.worldName.text = "World 2";
 		createMap();
 		
 		add(player);
@@ -32,12 +34,17 @@ class World2 extends World
 		camera.x = 0;
 		camera.y = -1000 - HXP.halfHeight;
 		
-		add(new entities.Block( -1000, -1000));
+		GV.PARTICLE_EMITTER = new ParticleController();
+		add(GV.PARTICLE_EMITTER);
+		
 		add(new entities.Straw(1000, 1000));
 		
-		add(new Cookie(500, 500, new Image("graphics/normalcookie.png")));
+		add(new Cookie(1250, 3500, new Image("graphics/normalcookie.png")));
 		
-		spawn(); // create our first enemy
+		for (i in 0...15)
+		{
+			spawn();
+		}
 	}
 	public function createMap()
 	{
@@ -52,42 +59,6 @@ class World2 extends World
 
 	  add(e);
 	}
-/*	public function createMap()
-	{
-		// create the map
-		var map = TmxMap.loadFromFile("maps/world_1_2.tmx");
-
-		// access map properties
-		var prop = map.properties.resolve("myCustomProperties");
-
-		// go through the list of objects in an object layer
-		for(object in map.getObjectGroup("myObjectsLayer").objects)
-		{
-			// you can access:
-			object.name; 
-			object.type;
-
-			object.x;
-			object.y;
-
-			object.width;
-			object.height;
-
-			// to read custom properties
-			object.custom.resolve("myProp");
-		}
-
-		// create the map
-		var e = new TmxEntity(map);
-
-		// load layers named bottom, main, top with the appropriate tileset
-		e.loadGraphic("graphics/block.png", ["bottom", "main", "top"]);
-
-		// loads a grid layer named collision and sets the entity type to walls
-		e.loadMask("collision", "walls");
-
-		add(e);
-	}*/
 	
 	public override function update()
 	{
@@ -102,12 +73,29 @@ class World2 extends World
 
 	private function spawn()
 	{
-		var cowy = Math.random() * HXP.height * 3;
-		var cowx = Math.random() * HXP.width * 3;
-		var kitteny = Math.random() * HXP.height * 3;
-		var kittenx = Math.random() * HXP.width * 3;
-		add(new entities.Cow(cowx, cowy));
-		add(new entities.Kitten(kittenx, kitteny));
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn:Int = Std.random(100);
+			if (randomSpawn <= 49)
+			{
+				add(new entities.Cow(enemyX, enemyY));
+			}
+			else if (randomSpawn <= 96)
+			{
+				add(new entities.Kitten(enemyX, enemyY));
+			}
+			else if (randomSpawn <= 97)
+			{
+				add(new entities.MindControlCow(enemyX, enemyY));
+			}
+			else if (randomSpawn <= 98)
+			{
+				add(new entities.MindControlKitten(enemyX, enemyY));
+			}
+			else if (randomSpawn <= 99)
+			{
+				add(new entities.Bacteria(enemyX, enemyY));
+			}
 		spawnTimer = 0.75; // every second
 	}
 

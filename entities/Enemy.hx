@@ -11,6 +11,7 @@ class Enemy extends Entity
 
         graphic = Image.createRect(32, 32);
         setHitbox(32, 32);
+		health = 10;
         type = "enemy";
     }
 
@@ -32,4 +33,6 @@ class Enemy extends Entity
 		
         super.update();
     }
+	
+	public var health:Int;
 }

@@ -51,72 +51,137 @@ ApplicationMain.main = function() {
 	ApplicationMain.loaders.set("gfx/preloader/haxepunk.png",loader8);
 	ApplicationMain.total++;
 	var loader9 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/block.png",loader9);
+	ApplicationMain.loaders.set("graphics/bacteriaguy.png",loader9);
 	ApplicationMain.total++;
 	var loader10 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/bus.png",loader10);
+	ApplicationMain.loaders.set("graphics/block.png",loader10);
 	ApplicationMain.total++;
 	var loader11 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/bus2.png",loader11);
+	ApplicationMain.loaders.set("graphics/drinkingstraw.png",loader11);
 	ApplicationMain.total++;
 	var loader12 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/cow.png",loader12);
+	ApplicationMain.loaders.set("graphics/full cookie crumb.png",loader12);
 	ApplicationMain.total++;
 	var loader13 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/cow2.png",loader13);
+	ApplicationMain.loaders.set("graphics/glass.png",loader13);
 	ApplicationMain.total++;
 	var loader14 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/drinkingstraw.jpg",loader14);
+	ApplicationMain.loaders.set("graphics/glassbottom.png",loader14);
 	ApplicationMain.total++;
 	var loader15 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/drinkingstraw.png",loader15);
+	ApplicationMain.loaders.set("graphics/glassside.png",loader15);
 	ApplicationMain.total++;
 	var loader16 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/glass.png",loader16);
+	ApplicationMain.loaders.set("graphics/glasssquare.png",loader16);
 	ApplicationMain.total++;
 	var loader17 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/glassbottom.png",loader17);
+	ApplicationMain.loaders.set("graphics/jetpackkitty.png",loader17);
 	ApplicationMain.total++;
 	var loader18 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/glassside.png",loader18);
+	ApplicationMain.loaders.set("graphics/jetpackkittyleft.png",loader18);
 	ApplicationMain.total++;
 	var loader19 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/glasssquare.png",loader19);
+	ApplicationMain.loaders.set("graphics/jetpackkittyright.png",loader19);
 	ApplicationMain.total++;
 	var loader20 = new flash.display.Loader();
 	ApplicationMain.loaders.set("graphics/kitty.png",loader20);
 	ApplicationMain.total++;
 	var loader21 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/kitty64.png",loader21);
+	ApplicationMain.loaders.set("graphics/kittyleft.png",loader21);
 	ApplicationMain.total++;
 	var loader22 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/milk-vector.jpg",loader22);
+	ApplicationMain.loaders.set("graphics/kittyright.png",loader22);
 	ApplicationMain.total++;
 	var loader23 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/milkbackground.png",loader23);
+	ApplicationMain.loaders.set("graphics/Left cookie crumb.png",loader23);
 	ApplicationMain.total++;
 	var loader24 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/milktileset.png",loader24);
+	ApplicationMain.loaders.set("graphics/milkbackground.png",loader24);
 	ApplicationMain.total++;
 	var loader25 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/Moocow.png",loader25);
+	ApplicationMain.loaders.set("graphics/Milkshipleft.png",loader25);
 	ApplicationMain.total++;
 	var loader26 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/moocowleft.png",loader26);
+	ApplicationMain.loaders.set("graphics/Milkshipright.png",loader26);
 	ApplicationMain.total++;
 	var loader27 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/plane.png",loader27);
+	ApplicationMain.loaders.set("graphics/milktileset.png",loader27);
 	ApplicationMain.total++;
 	var loader28 = new flash.display.Loader();
-	ApplicationMain.loaders.set("graphics/player.png",loader28);
+	ApplicationMain.loaders.set("graphics/mindcontrolmoocowleft.png",loader28);
+	ApplicationMain.total++;
+	var loader29 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/mindcontrolmoocowright.png",loader29);
+	ApplicationMain.total++;
+	var loader30 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/mmcookielarge.png",loader30);
+	ApplicationMain.total++;
+	var loader31 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/moocowleft.png",loader31);
+	ApplicationMain.total++;
+	var loader32 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/moocowright.png",loader32);
+	ApplicationMain.total++;
+	var loader33 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/normalcookie.png",loader33);
+	ApplicationMain.total++;
+	var loader34 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/ocean.png",loader34);
+	ApplicationMain.total++;
+	var loader35 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/pbcookie.png",loader35);
+	ApplicationMain.total++;
+	var loader36 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/player.png",loader36);
+	ApplicationMain.total++;
+	var loader37 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/Right cookie crumb.png",loader37);
+	ApplicationMain.total++;
+	var loader38 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/stars.png",loader38);
+	ApplicationMain.total++;
+	var loader39 = new flash.display.Loader();
+	ApplicationMain.loaders.set("graphics/straw.png",loader39);
 	ApplicationMain.total++;
 	var urlLoader = new flash.net.URLLoader();
 	urlLoader.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
-	ApplicationMain.urlLoaders.set("maps/world_1_1.tmx",urlLoader);
+	ApplicationMain.urlLoaders.set("maps/world1.tmx",urlLoader);
 	ApplicationMain.total++;
 	var urlLoader1 = new flash.net.URLLoader();
 	urlLoader1.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
-	ApplicationMain.urlLoaders.set("maps/world_1_2.tmx",urlLoader1);
+	ApplicationMain.urlLoaders.set("maps/world10.tmx",urlLoader1);
+	ApplicationMain.total++;
+	var urlLoader2 = new flash.net.URLLoader();
+	urlLoader2.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world2.tmx",urlLoader2);
+	ApplicationMain.total++;
+	var urlLoader3 = new flash.net.URLLoader();
+	urlLoader3.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world3.tmx",urlLoader3);
+	ApplicationMain.total++;
+	var urlLoader4 = new flash.net.URLLoader();
+	urlLoader4.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world4.tmx",urlLoader4);
+	ApplicationMain.total++;
+	var urlLoader5 = new flash.net.URLLoader();
+	urlLoader5.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world5.tmx",urlLoader5);
+	ApplicationMain.total++;
+	var urlLoader6 = new flash.net.URLLoader();
+	urlLoader6.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world6.tmx",urlLoader6);
+	ApplicationMain.total++;
+	var urlLoader7 = new flash.net.URLLoader();
+	urlLoader7.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world7.tmx",urlLoader7);
+	ApplicationMain.total++;
+	var urlLoader8 = new flash.net.URLLoader();
+	urlLoader8.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world8.tmx",urlLoader8);
+	ApplicationMain.total++;
+	var urlLoader9 = new flash.net.URLLoader();
+	urlLoader9.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
+	ApplicationMain.urlLoaders.set("maps/world9.tmx",urlLoader9);
 	ApplicationMain.total++;
 	var resourcePrefix = "__ASSET__:bitmap_";
 	var _g = 0;
@@ -136,16 +201,16 @@ ApplicationMain.main = function() {
 		var $it0 = ApplicationMain.loaders.keys();
 		while( $it0.hasNext() ) {
 			var path = $it0.next();
-			var loader29 = ApplicationMain.loaders.get(path);
-			loader29.contentLoaderInfo.addEventListener("complete",ApplicationMain.loader_onComplete);
-			loader29.load(new flash.net.URLRequest(path));
+			var loader40 = ApplicationMain.loaders.get(path);
+			loader40.contentLoaderInfo.addEventListener("complete",ApplicationMain.loader_onComplete);
+			loader40.load(new flash.net.URLRequest(path));
 		}
 		var $it1 = ApplicationMain.urlLoaders.keys();
 		while( $it1.hasNext() ) {
 			var path1 = $it1.next();
-			var urlLoader2 = ApplicationMain.urlLoaders.get(path1);
-			urlLoader2.addEventListener("complete",ApplicationMain.loader_onComplete);
-			urlLoader2.load(new flash.net.URLRequest(path1));
+			var urlLoader10 = ApplicationMain.urlLoaders.get(path1);
+			urlLoader10.addEventListener("complete",ApplicationMain.loader_onComplete);
+			urlLoader10.load(new flash.net.URLRequest(path1));
 		}
 	}
 };
@@ -958,13 +1023,6 @@ flash.display.DisplayObjectContainer.prototype = $extend(flash.display.Interacti
 			this.setChildIndex(object,this.__children.length - 1);
 			return object;
 		}
-		var _g = 0;
-		var _g1 = this.__children;
-		while(_g < _g1.length) {
-			var child = _g1[_g];
-			++_g;
-			if(child == object) throw "Internal error: child already existed at index " + this.getChildIndex(object);
-		}
 		object.set_parent(this);
 		if(this.__isOnStage()) object.__addToStage(this);
 		if(this.__children == null) this.__children = new Array();
@@ -1027,7 +1085,6 @@ flash.display.DisplayObjectContainer.prototype = $extend(flash.display.Interacti
 				HxOverrides.remove(this.__children,child);
 				child.__removeFromStage();
 				child.set_parent(null);
-				if(this.getChildIndex(child) >= 0) throw "Not removed properly";
 				return child;
 			}
 		}
@@ -1212,7 +1269,6 @@ flash.display.DisplayObjectContainer.prototype = $extend(flash.display.Interacti
 		HxOverrides.remove(this.__children,child);
 		child.__removeFromStage();
 		child.set_parent(null);
-		if(this.getChildIndex(child) >= 0) throw "Not removed properly";
 		return child;
 	}
 	,__removeFromStage: function() {
@@ -1491,18 +1547,8 @@ com.haxepunk.Engine.prototype = $extend(flash.display.Sprite.prototype,{
 			this.addEventListener(flash.events.Event.ENTER_FRAME,$bind(this,this.onEnterFrame));
 		}
 		if(com.haxepunk.HXP.renderMode == com.haxepunk.RenderMode.BUFFER) {
-		} else ((function($this) {
-			var $r;
-			if(com.haxepunk.HXP._console == null) com.haxepunk.HXP._console = new com.haxepunk.debug.Console();
-			$r = com.haxepunk.HXP._console;
-			return $r;
-		}(this))).log(["Warning: Using RenderMode.HARDWARE on flash/html5 target may result in corrupt graphics"]);
-		((function($this) {
-			var $r;
-			if(com.haxepunk.HXP._console == null) com.haxepunk.HXP._console = new com.haxepunk.debug.Console();
-			$r = com.haxepunk.HXP._console;
-			return $r;
-		}(this))).log(["Warning: the HTML 5 target is currently experimental"]);
+		} else {
+		}
 	}
 	,onEnterFrame: function(e) {
 		this._time = this._gameTime = flash.Lib.getTimer();
@@ -1586,14 +1632,12 @@ Main.main = function() {
 Main.__super__ = com.haxepunk.Engine;
 Main.prototype = $extend(com.haxepunk.Engine.prototype,{
 	init: function() {
-		((function($this) {
-			var $r;
-			if(com.haxepunk.HXP._console == null) com.haxepunk.HXP._console = new com.haxepunk.debug.Console();
-			$r = com.haxepunk.HXP._console;
-			return $r;
-		}(this))).enable();
 		this.player = new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight);
-		com.haxepunk.HXP.set_world(new worlds.World_1_2(this.player));
+		com.haxepunk.HXP.set_volume(0.5);
+		entities.GV.BACKGROUND_MUSIC = new com.haxepunk.Sfx("audio/intothemilklong.mp3");
+		entities.GV.BACKGROUND_MUSIC.stop();
+		entities.GV.BACKGROUND_MUSIC.loop();
+		com.haxepunk.HXP.set_world(new worlds.World1(this.player));
 	}
 	,__class__: Main
 });
@@ -1677,29 +1721,48 @@ var DefaultAssetLibrary = function() {
 	this.addExternal("gfx/debug/console_visible.png","image","gfx/debug/console_visible.png");
 	this.addExternal("gfx/preloader/haxepunk.png","image","gfx/preloader/haxepunk.png");
 	this.addEmbed("font/04B_03__.ttf","font",__ASSET__font_04b_03___ttf);
+	this.addExternal("graphics/bacteriaguy.png","image","graphics/bacteriaguy.png");
 	this.addExternal("graphics/block.png","image","graphics/block.png");
-	this.addExternal("graphics/bus.png","image","graphics/bus.png");
-	this.addExternal("graphics/bus2.png","image","graphics/bus2.png");
-	this.addExternal("graphics/cow.png","image","graphics/cow.png");
-	this.addExternal("graphics/cow2.png","image","graphics/cow2.png");
-	this.addExternal("graphics/drinkingstraw.jpg","image","graphics/drinkingstraw.jpg");
 	this.addExternal("graphics/drinkingstraw.png","image","graphics/drinkingstraw.png");
+	this.addExternal("graphics/full cookie crumb.png","image","graphics/full cookie crumb.png");
 	this.addExternal("graphics/glass.png","image","graphics/glass.png");
 	this.addExternal("graphics/glassbottom.png","image","graphics/glassbottom.png");
 	this.addExternal("graphics/glassside.png","image","graphics/glassside.png");
 	this.addExternal("graphics/glasssquare.png","image","graphics/glasssquare.png");
+	this.addExternal("graphics/jetpackkitty.png","image","graphics/jetpackkitty.png");
+	this.addExternal("graphics/jetpackkittyleft.png","image","graphics/jetpackkittyleft.png");
+	this.addExternal("graphics/jetpackkittyright.png","image","graphics/jetpackkittyright.png");
 	this.addExternal("graphics/kitty.png","image","graphics/kitty.png");
-	this.addExternal("graphics/kitty64.png","image","graphics/kitty64.png");
-	this.addExternal("graphics/milk-vector.jpg","image","graphics/milk-vector.jpg");
+	this.addExternal("graphics/kittyleft.png","image","graphics/kittyleft.png");
+	this.addExternal("graphics/kittyright.png","image","graphics/kittyright.png");
+	this.addExternal("graphics/Left cookie crumb.png","image","graphics/Left cookie crumb.png");
 	this.addExternal("graphics/milkbackground.png","image","graphics/milkbackground.png");
+	this.addExternal("graphics/Milkshipleft.png","image","graphics/Milkshipleft.png");
+	this.addExternal("graphics/Milkshipright.png","image","graphics/Milkshipright.png");
 	this.addExternal("graphics/milktileset.png","image","graphics/milktileset.png");
-	this.addExternal("graphics/Moocow.png","image","graphics/Moocow.png");
+	this.addExternal("graphics/mindcontrolmoocowleft.png","image","graphics/mindcontrolmoocowleft.png");
+	this.addExternal("graphics/mindcontrolmoocowright.png","image","graphics/mindcontrolmoocowright.png");
+	this.addExternal("graphics/mmcookielarge.png","image","graphics/mmcookielarge.png");
 	this.addExternal("graphics/moocowleft.png","image","graphics/moocowleft.png");
-	this.addExternal("graphics/plane.png","image","graphics/plane.png");
+	this.addExternal("graphics/moocowright.png","image","graphics/moocowright.png");
+	this.addExternal("graphics/normalcookie.png","image","graphics/normalcookie.png");
+	this.addExternal("graphics/ocean.png","image","graphics/ocean.png");
+	this.addExternal("graphics/pbcookie.png","image","graphics/pbcookie.png");
 	this.addExternal("graphics/player.png","image","graphics/player.png");
+	this.addExternal("graphics/Right cookie crumb.png","image","graphics/Right cookie crumb.png");
+	this.addExternal("graphics/stars.png","image","graphics/stars.png");
+	this.addExternal("graphics/straw.png","image","graphics/straw.png");
 	this.addEmbed("font/04B_03__.ttf","font",__ASSET__font_5);
-	this.addExternal("maps/world_1_1.tmx","binary","maps/world_1_1.tmx");
-	this.addExternal("maps/world_1_2.tmx","binary","maps/world_1_2.tmx");
+	this.addExternal("maps/world1.tmx","binary","maps/world1.tmx");
+	this.addExternal("maps/world10.tmx","binary","maps/world10.tmx");
+	this.addExternal("maps/world2.tmx","binary","maps/world2.tmx");
+	this.addExternal("maps/world3.tmx","binary","maps/world3.tmx");
+	this.addExternal("maps/world4.tmx","binary","maps/world4.tmx");
+	this.addExternal("maps/world5.tmx","binary","maps/world5.tmx");
+	this.addExternal("maps/world6.tmx","binary","maps/world6.tmx");
+	this.addExternal("maps/world7.tmx","binary","maps/world7.tmx");
+	this.addExternal("maps/world8.tmx","binary","maps/world8.tmx");
+	this.addExternal("maps/world9.tmx","binary","maps/world9.tmx");
 };
 $hxClasses["DefaultAssetLibrary"] = DefaultAssetLibrary;
 DefaultAssetLibrary.__name__ = ["DefaultAssetLibrary"];
@@ -2219,6 +2282,9 @@ Std.parseInt = function(x) {
 Std.parseFloat = function(x) {
 	return parseFloat(x);
 };
+Std.random = function(x) {
+	if(x <= 0) return 0; else return Math.floor(Math.random() * x);
+};
 var StringBuf = function() {
 	this.b = "";
 };
@@ -2505,10 +2571,6 @@ Xml.prototype = {
 	,__class__: Xml
 	,__properties__: {set_nodeValue:"set_nodeValue",get_nodeValue:"get_nodeValue",set_nodeName:"set_nodeName",get_nodeName:"get_nodeName"}
 };
-var assets = {};
-assets.Assets = function() { };
-$hxClasses["assets.Assets"] = assets.Assets;
-assets.Assets.__name__ = ["assets","Assets"];
 com.haxepunk.Tweener = function() {
 	this.active = true;
 	this.autoClear = false;
@@ -6815,7 +6877,6 @@ com.haxepunk.HXP.shuffle = function(a) {
 	}
 };
 com.haxepunk.HXP.resizeStage = function(width,height) {
-	haxe.Log.trace("Can only resize the stage in cpp or neko targets.",{ fileName : "HXP.hx", lineNumber : 1191, className : "com.haxepunk.HXP", methodName : "resizeStage"});
 };
 com.haxepunk.HXP.set_time = function(value) {
 	com.haxepunk.HXP._time = value;
@@ -7060,6 +7121,196 @@ com.haxepunk.Screen.prototype = {
 	}
 	,__class__: com.haxepunk.Screen
 	,__properties__: {get_mouseY:"get_mouseY",get_mouseX:"get_mouseX",set_smoothing:"set_smoothing",get_smoothing:"get_smoothing",set_angle:"set_angle",get_angle:"get_angle",set_scale:"set_scale",set_scaleY:"set_scaleY",set_scaleX:"set_scaleX",set_originY:"set_originY",set_originX:"set_originX",set_y:"set_y",set_x:"set_x",set_color:"set_color",get_color:"get_color"}
+};
+com.haxepunk.Sfx = function(source,complete) {
+	this._position = 0;
+	this._pan = 0;
+	this._volume = 1;
+	this._transform = new flash.media.SoundTransform();
+	this._volume = 1;
+	this._pan = 0;
+	this._position = 0;
+	this._type = "";
+	if(source == null) throw "Invalid source Sound.";
+	if(typeof(source) == "string") {
+		this._sound = openfl.Assets.getSound(source);
+		var key = source;
+		com.haxepunk.Sfx._sounds.set(key,this._sound);
+	} else {
+		var className = Type.getClassName(Type.getClass(source));
+		this._sound = com.haxepunk.Sfx._sounds.get(className);
+		if(this._sound == null) {
+			this._sound = source;
+			var value = source;
+			com.haxepunk.Sfx._sounds.set(className,value);
+		}
+	}
+	this.complete = complete;
+};
+$hxClasses["com.haxepunk.Sfx"] = com.haxepunk.Sfx;
+com.haxepunk.Sfx.__name__ = ["com","haxepunk","Sfx"];
+com.haxepunk.Sfx.getPan = function(type) {
+	if(com.haxepunk.Sfx._typeTransforms.exists(type)) {
+		var transform = com.haxepunk.Sfx._typeTransforms.get(type);
+		if(transform != null) return transform.pan; else return 0;
+	}
+	return 0;
+};
+com.haxepunk.Sfx.getVolume = function(type) {
+	if(com.haxepunk.Sfx._typeTransforms.exists(type)) {
+		var transform = com.haxepunk.Sfx._typeTransforms.get(type);
+		if(transform != null) return transform.volume; else return 1;
+	}
+	return 1;
+};
+com.haxepunk.Sfx.setPan = function(type,pan) {
+	var transform = com.haxepunk.Sfx._typeTransforms.get(type);
+	if(transform == null) {
+		transform = new flash.media.SoundTransform();
+		com.haxepunk.Sfx._typeTransforms.set(type,transform);
+	}
+	transform.pan = com.haxepunk.HXP.clamp(pan,-1,1);
+	if(com.haxepunk.Sfx._typePlaying.exists(type)) {
+		var _g = 0;
+		var _g1 = com.haxepunk.Sfx._typePlaying.get(type);
+		while(_g < _g1.length) {
+			var sfx = _g1[_g];
+			++_g;
+			sfx.set_pan(sfx.get_pan());
+		}
+	}
+};
+com.haxepunk.Sfx.setVolume = function(type,volume) {
+	var transform = com.haxepunk.Sfx._typeTransforms.get(type);
+	if(transform == null) {
+		transform = new flash.media.SoundTransform();
+		com.haxepunk.Sfx._typeTransforms.set(type,transform);
+	}
+	if(volume < 0) transform.volume = 0; else transform.volume = volume;
+	if(com.haxepunk.Sfx._typePlaying.exists(type)) {
+		var _g = 0;
+		var _g1 = com.haxepunk.Sfx._typePlaying.get(type);
+		while(_g < _g1.length) {
+			var sfx = _g1[_g];
+			++_g;
+			sfx.set_volume(sfx.get_volume());
+		}
+	}
+};
+com.haxepunk.Sfx.prototype = {
+	play: function(volume,pan,loop) {
+		if(loop == null) loop = false;
+		if(pan == null) pan = 0;
+		if(volume == null) volume = 1;
+		if(this._sound == null) return;
+		if(this._channel != null) this.stop();
+		this._pan = com.haxepunk.HXP.clamp(pan,-1,1);
+		if(volume < 0) this._volume = 0; else this._volume = volume;
+		this._filteredPan = com.haxepunk.HXP.clamp(this._pan + com.haxepunk.Sfx.getPan(this._type),-1,1);
+		this._filteredVol = Math.max(0,this._volume * com.haxepunk.Sfx.getVolume(this._type));
+		this._transform.pan = this._filteredPan;
+		this._transform.volume = this._filteredVol;
+		this._channel = this._sound.play(0,loop?-1:0,this._transform);
+		if(this._channel != null) {
+			this.addPlaying();
+			this._channel.addEventListener(flash.events.Event.SOUND_COMPLETE,$bind(this,this.onComplete));
+		}
+		this._looping = loop;
+		this._position = 0;
+	}
+	,loop: function(vol,pan) {
+		if(pan == null) pan = 0;
+		if(vol == null) vol = 1;
+		this.play(vol,pan,true);
+	}
+	,stop: function() {
+		if(!(this._channel != null)) return false;
+		this.removePlaying();
+		this._position = this._channel.position;
+		this._channel.removeEventListener(flash.events.Event.SOUND_COMPLETE,$bind(this,this.onComplete));
+		this._channel.stop();
+		this._channel = null;
+		return true;
+	}
+	,resume: function() {
+		this._channel = this._sound.play(this._position,this._looping?-1:0,this._transform);
+		if(this._channel != null) {
+			this.addPlaying();
+			this._channel.addEventListener(flash.events.Event.SOUND_COMPLETE,$bind(this,this.onComplete));
+		}
+		this._position = 0;
+	}
+	,onComplete: function(e) {
+		if(this._looping) this.loop(this._volume,this._pan); else this.stop();
+		this._position = 0;
+		if(this.complete != null) this.complete();
+	}
+	,addPlaying: function() {
+		var list;
+		if(!com.haxepunk.Sfx._typePlaying.exists(this._type)) {
+			list = new Array();
+			com.haxepunk.Sfx._typePlaying.set(this._type,list);
+		} else list = com.haxepunk.Sfx._typePlaying.get(this._type);
+		list.push(this);
+	}
+	,removePlaying: function() {
+		if(com.haxepunk.Sfx._typePlaying.exists(this._type)) {
+			var _this = com.haxepunk.Sfx._typePlaying.get(this._type);
+			HxOverrides.remove(_this,this);
+		}
+	}
+	,get_volume: function() {
+		return this._volume;
+	}
+	,set_volume: function(value) {
+		if(value < 0) value = 0;
+		if(this._channel == null || this._volume == value) return value;
+		this._volume = value;
+		var filteredVol = value * com.haxepunk.Sfx.getVolume(this._type);
+		if(filteredVol < 0) filteredVol = 0;
+		if(this._filteredVol == filteredVol) return value;
+		this._filteredVol = this._transform.volume = filteredVol;
+		this._channel.set_soundTransform(this._transform);
+		return this._volume;
+	}
+	,get_pan: function() {
+		return this._pan;
+	}
+	,set_pan: function(value) {
+		value = com.haxepunk.HXP.clamp(value,-1,1);
+		if(this._channel == null || this._pan == value) return value;
+		var filteredPan = com.haxepunk.HXP.clamp(value + com.haxepunk.Sfx.getPan(this._type),-1,1);
+		if(this._filteredPan == filteredPan) return value;
+		this._pan = value;
+		this._filteredPan = this._transform.pan = filteredPan;
+		this._channel.set_soundTransform(this._transform);
+		return this._pan;
+	}
+	,get_type: function() {
+		return this._type;
+	}
+	,set_type: function(value) {
+		if(this._type == value) return value;
+		if(this._channel != null) {
+			this.removePlaying();
+			this._type = value;
+			this.addPlaying();
+			this.set_pan(this.get_pan());
+			this.set_volume(this.get_volume());
+		} else this._type = value;
+		return value;
+	}
+	,get_playing: function() {
+		return this._channel != null;
+	}
+	,get_position: function() {
+		return (this._channel != null?this._channel.position:this._position) / 1000;
+	}
+	,get_length: function() {
+		return this._sound.length / 1000;
+	}
+	,__class__: com.haxepunk.Sfx
+	,__properties__: {get_length:"get_length",get_position:"get_position",get_playing:"get_playing",set_type:"set_type",get_type:"get_type",set_pan:"set_pan",get_pan:"get_pan",set_volume:"set_volume",get_volume:"get_volume"}
 };
 com.haxepunk.TweenType = $hxClasses["com.haxepunk.TweenType"] = { __ename__ : true, __constructs__ : ["Persist","Looping","OneShot"] };
 com.haxepunk.TweenType.Persist = ["Persist",0];
@@ -8328,6 +8579,254 @@ com.haxepunk.graphics.Backdrop.prototype = $extend(com.haxepunk.graphics.Canvas.
 	}
 	,__class__: com.haxepunk.graphics.Backdrop
 });
+com.haxepunk.graphics.Emitter = function(source,frameWidth,frameHeight) {
+	if(frameHeight == null) frameHeight = 0;
+	if(frameWidth == null) frameWidth = 0;
+	com.haxepunk.Graphic.call(this);
+	this._p = new flash.geom.Point();
+	this._tint = new flash.geom.ColorTransform();
+	this._types = new haxe.ds.StringMap();
+	this.setSource(source,frameWidth,frameHeight);
+	this.active = true;
+	this.particleCount = 0;
+};
+$hxClasses["com.haxepunk.graphics.Emitter"] = com.haxepunk.graphics.Emitter;
+com.haxepunk.graphics.Emitter.__name__ = ["com","haxepunk","graphics","Emitter"];
+com.haxepunk.graphics.Emitter.__properties__ = {get_SIN:"get_SIN"}
+com.haxepunk.graphics.Emitter.get_SIN = function() {
+	return Math.PI / 2;
+};
+com.haxepunk.graphics.Emitter.__super__ = com.haxepunk.Graphic;
+com.haxepunk.graphics.Emitter.prototype = $extend(com.haxepunk.Graphic.prototype,{
+	setSource: function(source,frameWidth,frameHeight) {
+		if(frameHeight == null) frameHeight = 0;
+		if(frameWidth == null) frameWidth = 0;
+		var region = null;
+		if(js.Boot.__instanceof(source,flash.display.BitmapData)) this.setBitmapSource(source); else if(js.Boot.__instanceof(source,com.haxepunk.graphics.atlas.AtlasRegion)) region = this.setAtlasRegion(source); else if(com.haxepunk.HXP.renderMode == com.haxepunk.RenderMode.HARDWARE) region = this.setAtlasRegion(com.haxepunk.graphics.atlas.Atlas.loadImageAsRegion(source)); else this.setBitmapSource(com.haxepunk.HXP.getBitmap(source));
+		if(this._source == null && region == null) throw "Invalid source image.";
+		if(frameWidth != 0) this._frameWidth = frameWidth; else this._frameWidth = this._width;
+		if(frameHeight != 0) this._frameHeight = frameHeight; else this._frameHeight = this._height;
+		this._frameCount = (this._width / this._frameWidth | 0) * (this._height / this._frameHeight | 0);
+		if(region != null) {
+			var rect = new flash.geom.Rectangle(0,0,this._frameWidth,this._frameHeight);
+			var center = new flash.geom.Point(this._frameWidth / 2,this._frameHeight / 2);
+			this._frames = new Array();
+			var _g1 = 0;
+			var _g = this._frameCount;
+			while(_g1 < _g) {
+				var i = _g1++;
+				this._frames.push(region.clip(rect,center));
+				rect.x += this._frameWidth;
+				if(rect.x >= this._width) {
+					rect.y += this._frameHeight;
+					rect.x = 0;
+				}
+			}
+		}
+	}
+	,setBitmapSource: function(bitmap) {
+		this.blit = true;
+		this._source = bitmap;
+		this._width = (bitmap.___textureBuffer != null?bitmap.___textureBuffer.width:0) | 0;
+		this._height = (bitmap.___textureBuffer != null?bitmap.___textureBuffer.height:0) | 0;
+	}
+	,setAtlasRegion: function(region) {
+		this.blit = false;
+		this._width = region._rect.width | 0;
+		this._height = region._rect.height | 0;
+		return region;
+	}
+	,update: function() {
+		if(this._particle == null) return;
+		var e;
+		if(com.haxepunk.HXP.fixed) e = 1 / com.haxepunk.HXP.assignedFrameRate; else e = com.haxepunk.HXP.elapsed;
+		var p = this._particle;
+		var n;
+		while(p != null) {
+			p._time += e;
+			if(p._time >= p._duration) {
+				if(p._next != null) p._next._prev = p._prev;
+				if(p._prev != null) p._prev._next = p._next; else this._particle = p._next;
+				n = p._next;
+				p._next = this._cache;
+				p._prev = null;
+				this._cache = p;
+				p = n;
+				this.particleCount--;
+				continue;
+			}
+			p = p._next;
+		}
+	}
+	,clear: function() {
+		if(this._particle == null) return;
+		var p = this._particle;
+		var n;
+		while(p != null) {
+			n = p._next;
+			p._next = this._cache;
+			p._prev = null;
+			this._cache = p;
+			p = n;
+			this.particleCount--;
+		}
+		this._particle = null;
+	}
+	,renderParticle: function(renderFunc,point,camera) {
+		if(this._particle == null) return; else {
+			this._point.x = point.x + this.x - camera.x * this.scrollX;
+			this._point.y = point.y + this.y - camera.y * this.scrollY;
+			var t;
+			var td;
+			var p = this._particle;
+			var type;
+			while(p != null) {
+				t = p._time / p._duration;
+				type = p._type;
+				if(type._ease == null) td = t; else td = type._ease(t);
+				this._p.x = this._point.x + p._x + p._moveX * (type._backwards?1 - td:td);
+				this._p.y = this._point.y + p._y + p._moveY * (type._backwards?1 - td:td);
+				p._moveY += p._gravity * td;
+				renderFunc(type,t,td);
+				p = p._next;
+			}
+		}
+	}
+	,render: function(target,point,camera) {
+		var _g = this;
+		var rect;
+		this.renderParticle(function(type,t,td) {
+			rect = type._frame;
+			if(type._frames.length == 0) rect.x = 0; else rect.x = rect.width * type._frames[td * type._frames.length | 0];
+			rect.y = (rect.x / _g._width | 0) * rect.height;
+			rect.x %= _g._width;
+			_g._p.x -= rect.width / 2;
+			_g._p.y -= rect.height / 2;
+			if(type._buffer != null) {
+				_g._tint.alphaMultiplier = type._alpha + type._alphaRange * (type._alphaEase == null?t:type._alphaEase(t));
+				if(type._colorEase == null) td = t; else td = type._colorEase(t);
+				_g._tint.redMultiplier = type._red + type._redRange * td;
+				_g._tint.greenMultiplier = type._green + type._greenRange * td;
+				_g._tint.blueMultiplier = type._blue + type._blueRange * td;
+				type._buffer.fillRect(type._bufferRect,0);
+				type._buffer.copyPixels(_g._source,rect,com.haxepunk.HXP.zero);
+				type._buffer.colorTransform(type._bufferRect,_g._tint);
+				target.copyPixels(type._buffer,type._bufferRect,_g._p,null,null,true);
+			} else target.copyPixels(_g._source,rect,_g._p,null,null,true);
+		},point,camera);
+	}
+	,renderAtlas: function(layer,point,camera) {
+		var _g = this;
+		var fsx = com.haxepunk.HXP.screen.fullScaleX;
+		var fsy = com.haxepunk.HXP.screen.fullScaleY;
+		this.renderParticle(function(type,t,td) {
+			var frameIndex = type._frames[td * type._frames.length | 0];
+			_g._frames[frameIndex].draw(Math.floor(_g._p.x * fsx),Math.floor(_g._p.y * fsy),layer,fsx,fsy,type._angle,type._red + type._redRange * td,type._green + type._greenRange * td,type._blue + type._blueRange * td,type._alpha + type._alphaRange * (type._alphaEase == null?t:type._alphaEase(t)));
+		},point,camera);
+	}
+	,newType: function(name,frames) {
+		var pt = this._types.get(name);
+		if(pt != null) throw "Cannot add multiple particle types of the same name";
+		pt = new com.haxepunk.graphics.ParticleType(name,frames,this._width,this._frameWidth,this._frameHeight);
+		this._types.set(name,pt);
+		return pt;
+	}
+	,setMotion: function(name,angle,distance,duration,angleRange,distanceRange,durationRange,ease,backwards) {
+		if(backwards == null) backwards = false;
+		if(durationRange == null) durationRange = 0;
+		if(distanceRange == null) distanceRange = 0;
+		if(angleRange == null) angleRange = 0;
+		var pt = this._types.get(name);
+		if(pt == null) return null;
+		return pt.setMotion(angle,distance,duration,angleRange,distanceRange,durationRange,ease,backwards);
+	}
+	,setGravity: function(name,gravity,gravityRange) {
+		if(gravityRange == null) gravityRange = 0;
+		if(gravity == null) gravity = 0;
+		return (js.Boot.__cast(this._types.get(name) , com.haxepunk.graphics.ParticleType)).setGravity(gravity,gravityRange);
+	}
+	,setAlpha: function(name,start,finish,ease) {
+		if(finish == null) finish = 0;
+		if(start == null) start = 1;
+		var pt = this._types.get(name);
+		if(pt == null) return null;
+		return pt.setAlpha(start,finish,ease);
+	}
+	,setColor: function(name,start,finish,ease) {
+		if(finish == null) finish = 0;
+		if(start == null) start = 16777215;
+		var pt = this._types.get(name);
+		if(pt == null) return null;
+		return pt.setColor(start,finish,ease);
+	}
+	,emit: function(name,x,y) {
+		if(y == null) y = 0;
+		if(x == null) x = 0;
+		var p;
+		var type = this._types.get(name);
+		if(type == null) throw "Particle type \"" + name + "\" does not exist.";
+		if(this._cache != null) {
+			p = this._cache;
+			this._cache = p._next;
+		} else p = new com.haxepunk.graphics.Particle();
+		p._next = this._particle;
+		p._prev = null;
+		if(p._next != null) p._next._prev = p;
+		p._type = type;
+		p._time = 0;
+		p._duration = type._duration + type._durationRange * (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this));
+		var a;
+		a = type._angle + type._angleRange * (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this));
+		var d;
+		d = type._distance + type._distanceRange * (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this));
+		p._moveX = Math.cos(a) * d;
+		p._moveY = Math.sin(a) * d;
+		p._x = x;
+		p._y = y;
+		p._gravity = type._gravity + type._gravityRange * (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this));
+		this.particleCount++;
+		return this._particle = p;
+	}
+	,emitInCircle: function(name,x,y,radius) {
+		var angle = Math.random() * Math.PI * 2;
+		radius *= Math.random();
+		return this.emit(name,x + Math.cos(angle) * radius,y + Math.sin(angle) * radius);
+	}
+	,emitInRectangle: function(name,x,y,width,height) {
+		return this.emit(name,x + (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this)) * width,y + (function($this) {
+			var $r;
+			com.haxepunk.HXP._seed = com.haxepunk.HXP._seed * 16807.0 % 2147483647 | 0;
+			$r = com.haxepunk.HXP._seed / 2147483647;
+			return $r;
+		}(this)) * height);
+	}
+	,__class__: com.haxepunk.graphics.Emitter
+});
 com.haxepunk.graphics.Graphiclist = function(graphic) {
 	this._graphics = new Array();
 	this._temp = new Array();
@@ -8709,6 +9208,97 @@ com.haxepunk.graphics.Image.prototype = $extend(com.haxepunk.Graphic.prototype,{
 	,__class__: com.haxepunk.graphics.Image
 	,__properties__: $extend(com.haxepunk.Graphic.prototype.__properties__,{get_clipRect:"get_clipRect",set_scaledHeight:"set_scaledHeight",get_scaledHeight:"get_scaledHeight",set_scaledWidth:"set_scaledWidth",get_scaledWidth:"get_scaledWidth",get_height:"get_height",get_width:"get_width",set_flipped:"set_flipped",get_flipped:"get_flipped",set_color:"set_color",get_color:"get_color",set_alpha:"set_alpha",get_alpha:"get_alpha",set_scale:"set_scale",get_scale:"get_scale"})
 });
+com.haxepunk.graphics.Particle = function() {
+	this._time = 0;
+	this._duration = 0;
+	this._x = this._y = 0;
+	this._moveX = this._moveY = 0;
+	this._gravity = 0;
+};
+$hxClasses["com.haxepunk.graphics.Particle"] = com.haxepunk.graphics.Particle;
+com.haxepunk.graphics.Particle.__name__ = ["com","haxepunk","graphics","Particle"];
+com.haxepunk.graphics.Particle.prototype = {
+	__class__: com.haxepunk.graphics.Particle
+};
+com.haxepunk.graphics.ParticleType = function(name,frames,width,frameWidth,frameHeight) {
+	this._red = this._green = this._blue = this._alpha = 1;
+	this._redRange = this._greenRange = this._blueRange = this._alphaRange = 0;
+	this._name = name;
+	this._frame = new flash.geom.Rectangle(0,0,frameWidth,frameHeight);
+	if(frames == null) frames = new Array();
+	this._frames = frames;
+	this._angle = this._angleRange = 0;
+	this._gravity = this._gravityRange = 0;
+	this._duration = this._durationRange = 0;
+	this._distance = this._distanceRange = 0;
+};
+$hxClasses["com.haxepunk.graphics.ParticleType"] = com.haxepunk.graphics.ParticleType;
+com.haxepunk.graphics.ParticleType.__name__ = ["com","haxepunk","graphics","ParticleType"];
+com.haxepunk.graphics.ParticleType.prototype = {
+	setMotion: function(angle,distance,duration,angleRange,distanceRange,durationRange,ease,backwards) {
+		if(backwards == null) backwards = false;
+		if(durationRange == null) durationRange = 0;
+		if(distanceRange == null) distanceRange = 0;
+		if(angleRange == null) angleRange = 0;
+		this._angle = angle * (Math.PI / -180);
+		this._distance = distance;
+		this._duration = duration;
+		this._angleRange = angleRange * (Math.PI / -180);
+		this._distanceRange = distanceRange;
+		this._durationRange = durationRange;
+		this._ease = ease;
+		this._backwards = backwards;
+		return this;
+	}
+	,setMotionVector: function(x,y,duration,durationRange,ease) {
+		if(durationRange == null) durationRange = 0;
+		this._angle = Math.atan2(y,x);
+		this._angleRange = 0;
+		this._duration = duration;
+		this._durationRange = durationRange;
+		this._ease = ease;
+		return this;
+	}
+	,setGravity: function(gravity,gravityRange) {
+		if(gravityRange == null) gravityRange = 0;
+		if(gravity == null) gravity = 0;
+		this._gravity = gravity;
+		this._gravityRange = gravityRange;
+		return this;
+	}
+	,setAlpha: function(start,finish,ease) {
+		if(finish == null) finish = 0;
+		if(start == null) start = 1;
+		if(start < 0) start = 0; else if(start > 1) start = 1; else start = start;
+		if(finish < 0) finish = 0; else if(finish > 1) finish = 1; else finish = finish;
+		this._alpha = start;
+		this._alphaRange = finish - start;
+		this._alphaEase = ease;
+		this.createBuffer();
+		return this;
+	}
+	,setColor: function(start,finish,ease) {
+		if(finish == null) finish = 0;
+		if(start == null) start = 16777215;
+		start &= 16777215;
+		finish &= 16777215;
+		this._red = (start >> 16 & 255) / 255;
+		this._green = (start >> 8 & 255) / 255;
+		this._blue = (start & 255) / 255;
+		this._redRange = (finish >> 16 & 255) / 255 - this._red;
+		this._greenRange = (finish >> 8 & 255) / 255 - this._green;
+		this._blueRange = (finish & 255) / 255 - this._blue;
+		this._colorEase = ease;
+		this.createBuffer();
+		return this;
+	}
+	,createBuffer: function() {
+		if(this._buffer != null) return;
+		this._buffer = com.haxepunk.HXP.createBitmap(this._frame.width | 0,this._frame.height | 0,true);
+		this._bufferRect = this._buffer.rect;
+	}
+	,__class__: com.haxepunk.graphics.ParticleType
+};
 com.haxepunk.graphics._Text = {};
 com.haxepunk.graphics._Text.StyleType_Impl_ = function() { };
 $hxClasses["com.haxepunk.graphics._Text.StyleType_Impl_"] = com.haxepunk.graphics._Text.StyleType_Impl_;
@@ -8818,9 +9408,8 @@ com.haxepunk.graphics.Text.prototype = $extend(com.haxepunk.graphics.Image.proto
 			var text = com.haxepunk.graphics.Text.tag_re.matched(2);
 			var p = com.haxepunk.graphics.Text.tag_re.matchedPos();
 			this._text = HxOverrides.substr(this._text,0,p.pos) + text + HxOverrides.substr(this._text,p.pos + p.len,null);
-			if(this._styles.exists(tagName)) this._field.setTextFormat(this._styles.get(tagName),p.pos,p.pos + text.length); else com.haxepunk.HXP.log("Could not found text style '" + tagName + "'");
+			if(this._styles.exists(tagName)) this._field.setTextFormat(this._styles.get(tagName),p.pos,p.pos + text.length);
 		}
-		if(this._field.get_text() != this._text) com.haxepunk.HXP.log("Text field and _text do not match!");
 	}
 	,updateTextBuffer: function() {
 		this._format.color = this._color;
@@ -9303,10 +9892,7 @@ $hxClasses["com.haxepunk.graphics.atlas.AtlasData"] = com.haxepunk.graphics.atla
 com.haxepunk.graphics.atlas.AtlasData.__name__ = ["com","haxepunk","graphics","atlas","AtlasData"];
 com.haxepunk.graphics.atlas.AtlasData.create = function(source) {
 	var data;
-	if(js.Boot.__instanceof(source,flash.display.BitmapData)) {
-		com.haxepunk.HXP.log("Atlases using BitmapData will not be managed.");
-		data = new com.haxepunk.graphics.atlas.AtlasData(source);
-	} else data = com.haxepunk.graphics.atlas.AtlasData.getAtlasDataByName(source,true);
+	if(js.Boot.__instanceof(source,flash.display.BitmapData)) data = new com.haxepunk.graphics.atlas.AtlasData(source); else data = com.haxepunk.graphics.atlas.AtlasData.getAtlasDataByName(source,true);
 	if(data != null) data._refCount += 1;
 	return data;
 };
@@ -11268,17 +11854,13 @@ com.haxepunk.tmx._TmxEntity.Map_Impl_.fromMapData = function(mapData) {
 com.haxepunk.tmx.TmxEntity = function(mapData) {
 	com.haxepunk.Entity.call(this);
 	this.map = mapData;
-	this.debugObjectMask = true;
 };
 $hxClasses["com.haxepunk.tmx.TmxEntity"] = com.haxepunk.tmx.TmxEntity;
 com.haxepunk.tmx.TmxEntity.__name__ = ["com","haxepunk","tmx","TmxEntity"];
 com.haxepunk.tmx.TmxEntity.__super__ = com.haxepunk.Entity;
 com.haxepunk.tmx.TmxEntity.prototype = $extend(com.haxepunk.Entity.prototype,{
 	loadImageLayer: function(name) {
-		if(this.map.imageLayers.exists(name) == false) {
-			haxe.Log.trace("Image layer '" + name + "' doesn't exist",{ fileName : "TmxEntity.hx", lineNumber : 49, className : "com.haxepunk.tmx.TmxEntity", methodName : "loadImageLayer"});
-			return;
-		}
+		if(this.map.imageLayers.exists(name) == false) return;
 		this.addGraphic(new com.haxepunk.graphics.Image(this.map.imageLayers.get(name)));
 	}
 	,loadGraphic: function(tileset,layerNames,skip) {
@@ -11288,10 +11870,7 @@ com.haxepunk.tmx.TmxEntity.prototype = $extend(com.haxepunk.Entity.prototype,{
 		while(_g < layerNames.length) {
 			var name = layerNames[_g];
 			++_g;
-			if(this.map.layers._map.exists(name) == false) {
-				haxe.Log.trace("Layer '" + name + "' doesn't exist",{ fileName : "TmxEntity.hx", lineNumber : 65, className : "com.haxepunk.tmx.TmxEntity", methodName : "loadGraphic"});
-				continue;
-			}
+			if(this.map.layers._map.exists(name) == false) continue;
 			layer = this.map.layers._map.get(name);
 			var spacing = this.map.getTileMapSpacing(name);
 			var tilemap = new com.haxepunk.graphics.Tilemap(tileset,this.map.fullWidth,this.map.fullHeight,this.map.tileWidth,this.map.tileHeight,spacing,spacing);
@@ -11315,10 +11894,7 @@ com.haxepunk.tmx.TmxEntity.prototype = $extend(com.haxepunk.Entity.prototype,{
 		if(typeName == null) typeName = "solid";
 		if(collideLayer == null) collideLayer = "collide";
 		var tileCoords = new Array();
-		if(!this.map.layers._map.exists(collideLayer)) {
-			haxe.Log.trace("Layer '" + collideLayer + "' doesn't exist",{ fileName : "TmxEntity.hx", lineNumber : 97, className : "com.haxepunk.tmx.TmxEntity", methodName : "loadMask"});
-			return tileCoords;
-		}
+		if(!this.map.layers._map.exists(collideLayer)) return tileCoords;
 		var gid;
 		var layer = this.map.layers._map.get(collideLayer);
 		var grid = new com.haxepunk.masks.Grid(this.map.fullWidth,this.map.fullHeight,this.map.tileWidth,this.map.tileHeight);
@@ -11346,10 +11922,7 @@ com.haxepunk.tmx.TmxEntity.prototype = $extend(com.haxepunk.Entity.prototype,{
 	,loadSlopedMask: function(collideLayer,typeName,skip) {
 		if(typeName == null) typeName = "solid";
 		if(collideLayer == null) collideLayer = "collide";
-		if(!this.map.layers._map.exists(collideLayer)) {
-			haxe.Log.trace("Layer '" + collideLayer + "' doesn't exist",{ fileName : "TmxEntity.hx", lineNumber : 132, className : "com.haxepunk.tmx.TmxEntity", methodName : "loadSlopedMask"});
-			return;
-		}
+		if(!this.map.layers._map.exists(collideLayer)) return;
 		var gid;
 		var layer = this.map.layers._map.get(collideLayer);
 		var grid = new com.haxepunk.masks.SlopedGrid(this.map.fullWidth,this.map.fullHeight,this.map.tileWidth,this.map.tileHeight);
@@ -11387,24 +11960,15 @@ com.haxepunk.tmx.TmxEntity.prototype = $extend(com.haxepunk.Entity.prototype,{
 	,loadObjectMask: function(collideLayer,typeName) {
 		if(typeName == null) typeName = "solidObject";
 		if(collideLayer == null) collideLayer = "objects";
-		if(this.map.getObjectGroup(collideLayer) == null) {
-			haxe.Log.trace("ObjectGroup '" + collideLayer + "' doesn't exist",{ fileName : "TmxEntity.hx", lineNumber : 189, className : "com.haxepunk.tmx.TmxEntity", methodName : "loadObjectMask"});
-			return;
-		}
+		if(this.map.getObjectGroup(collideLayer) == null) return;
 		var objectGroup = this.map.getObjectGroup(collideLayer);
 		var masks_ar = new Array();
-		var debug_graphics_ar = new Array();
 		var _g = 0;
 		var _g1 = objectGroup.objects;
 		while(_g < _g1.length) {
 			var object = _g1[_g];
 			++_g;
 			masks_ar.push(object.shapeMask);
-			debug_graphics_ar.push(object.debug_graphic);
-		}
-		if(this.debugObjectMask) {
-			var debug_graphicList = new com.haxepunk.graphics.Graphiclist(debug_graphics_ar);
-			this.addGraphic(debug_graphicList);
 		}
 		var maskList = new com.haxepunk.masks.Masklist(masks_ar);
 		this.set_mask(maskList);
@@ -11738,15 +12302,7 @@ com.haxepunk.tmx.TmxObject = function(source,parent) {
 		var radius;
 		radius = (this.width < this.height?this.width:this.height) / 2 | 0;
 		this.shapeMask = new com.haxepunk.masks.Circle(radius,this.x,this.y);
-		this.debug_graphic = com.haxepunk.graphics.Image.createCircle(radius,16711680,.6);
-		this.debug_graphic.x = this.x;
-		this.debug_graphic.y = this.y;
-	} else {
-		this.shapeMask = new com.haxepunk.masks.Hitbox(this.width,this.height,this.x,this.y);
-		this.debug_graphic = com.haxepunk.graphics.Image.createRect(this.width,this.height,16711680,.6);
-		this.debug_graphic.x = this.x;
-		this.debug_graphic.y = this.y;
-	}
+	} else this.shapeMask = new com.haxepunk.masks.Hitbox(this.width,this.height,this.x,this.y);
 };
 $hxClasses["com.haxepunk.tmx.TmxObject"] = com.haxepunk.tmx.TmxObject;
 com.haxepunk.tmx.TmxObject.__name__ = ["com","haxepunk","tmx","TmxObject"];
@@ -12464,18 +13020,9 @@ com.haxepunk.utils.Input.define = function(name,keys) {
 };
 com.haxepunk.utils.Input.check = function(input) {
 	if(typeof(input) == "string") {
-		if(!(function($this) {
-			var $r;
-			var key = input;
-			$r = com.haxepunk.utils.Input._control.exists(key);
-			return $r;
-		}(this))) {
-			com.haxepunk.HXP.log("Input '" + Std.string(input) + "' not defined");
-			return false;
-		}
 		var v;
-		var key1 = input;
-		v = com.haxepunk.utils.Input._control.get(key1);
+		var key = input;
+		v = com.haxepunk.utils.Input._control.get(key);
 		var i = v.length;
 		while(i-- > 0) {
 			if(v[i] < 0) {
@@ -12487,8 +13034,8 @@ com.haxepunk.utils.Input.check = function(input) {
 		return false;
 	}
 	if(input < 0) return com.haxepunk.utils.Input._keyNum > 0; else {
-		var key2 = input;
-		return com.haxepunk.utils.Input._key.get(key2);
+		var key1 = input;
+		return com.haxepunk.utils.Input._key.get(key1);
 	}
 };
 com.haxepunk.utils.Input.pressed = function(input) {
@@ -12824,63 +13371,6 @@ com.haxepunk.utils.Touch.prototype = {
 	,__properties__: {get_pressed:"get_pressed",get_sceneY:"get_sceneY",get_sceneX:"get_sceneX"}
 };
 var entities = {};
-entities.Terrain = function(x,y) {
-	com.haxepunk.Entity.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image(assets.Assets.GRAPHIC_TERRAIN_BLOCK));
-	this.set_type("terrain");
-};
-$hxClasses["entities.Terrain"] = entities.Terrain;
-entities.Terrain.__name__ = ["entities","Terrain"];
-entities.Terrain.__super__ = com.haxepunk.Entity;
-entities.Terrain.prototype = $extend(com.haxepunk.Entity.prototype,{
-	update: function() {
-		com.haxepunk.Entity.prototype.update.call(this);
-	}
-	,__class__: entities.Terrain
-});
-entities.Block = function(x,y) {
-	entities.Terrain.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image(assets.Assets.GRAPHIC_TERRAIN_BLOCK));
-	this._graphic.x = -16;
-	this._graphic.y = -16;
-	this.set_mask(new com.haxepunk.masks.Pixelmask(assets.Assets.GRAPHIC_TERRAIN_BLOCK,-16,-16));
-};
-$hxClasses["entities.Block"] = entities.Block;
-entities.Block.__name__ = ["entities","Block"];
-entities.Block.__super__ = entities.Terrain;
-entities.Block.prototype = $extend(entities.Terrain.prototype,{
-	update: function() {
-		entities.Terrain.prototype.update.call(this);
-	}
-	,__class__: entities.Block
-});
-entities.Bullet = function(x,y) {
-	com.haxepunk.Entity.call(this,x,y);
-	this.set_graphic(com.haxepunk.graphics.Image.createRect(16,4));
-	this.width = 16;
-	this.height = 4;
-	this.originX = 0;
-	this.originY = 0;
-	this.set_type("bullet");
-	this.ttl = 100;
-};
-$hxClasses["entities.Bullet"] = entities.Bullet;
-entities.Bullet.__name__ = ["entities","Bullet"];
-entities.Bullet.__super__ = com.haxepunk.Entity;
-entities.Bullet.prototype = $extend(com.haxepunk.Entity.prototype,{
-	moveCollideX: function(e) {
-		this._scene.remove(e);
-		this._scene.remove(this);
-		return true;
-	}
-	,update: function() {
-		this.moveBy(20,0,"enemy");
-		this.ttl--;
-		if(this.ttl <= 0) this._scene.remove(this);
-		com.haxepunk.Entity.prototype.update.call(this);
-	}
-	,__class__: entities.Bullet
-});
 entities.Enemy = function(x,y) {
 	com.haxepunk.Entity.call(this,x,y);
 	this.set_graphic(com.haxepunk.graphics.Image.createRect(32,32));
@@ -12888,6 +13378,7 @@ entities.Enemy = function(x,y) {
 	this.height = 32;
 	this.originX = 0;
 	this.originY = 0;
+	this.health = 10;
 	this.set_type("enemy");
 };
 $hxClasses["entities.Enemy"] = entities.Enemy;
@@ -12905,30 +13396,14 @@ entities.Enemy.prototype = $extend(com.haxepunk.Entity.prototype,{
 	}
 	,__class__: entities.Enemy
 });
-entities.Cow = function(x,y) {
+entities.Bacteria = function(x,y) {
+	this.graphicBacteriaLeft = new com.haxepunk.graphics.Image("graphics/bacteriaguy.png");
+	this.graphicBacteriaRight = new com.haxepunk.graphics.Image("graphics/bacteriaguy.png");
+	this.gravity = 1;
 	entities.Enemy.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image("graphics/moocowleft.png"));
-	this._graphic.x = -18;
-	this._graphic.y = -6;
-	this.width = 104;
-	this.height = 57;
-	this.originX = 0;
-	this.originY = 0;
-	this.set_type("enemy");
-};
-$hxClasses["entities.Cow"] = entities.Cow;
-entities.Cow.__name__ = ["entities","Cow"];
-entities.Cow.__super__ = entities.Enemy;
-entities.Cow.prototype = $extend(entities.Enemy.prototype,{
-	update: function() {
-		this.moveBy(-5,0,"player");
-		if((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < -32) this._scene.remove(this);
-	}
-	,__class__: entities.Cow
-});
-entities.Kitten = function(x,y) {
-	entities.Enemy.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image("graphics/kitty.png"));
+	var e = this.collide("terrain",x,y);
+	if(e != null) this._scene.remove(this);
+	this.set_graphic(this.graphicBacteriaRight);
 	this._graphic.x = -8;
 	this._graphic.y = -10;
 	this.width = 48;
@@ -12936,380 +13411,213 @@ entities.Kitten = function(x,y) {
 	this.originX = 0;
 	this.originY = 0;
 	this.set_type("enemy");
+	this.velocityX = Math.random() * 4.0;
+	this.velocityY = Math.random() * 4.0;
+	this.stuck = false;
+	this.ttl = 3000;
 };
-$hxClasses["entities.Kitten"] = entities.Kitten;
-entities.Kitten.__name__ = ["entities","Kitten"];
-entities.Kitten.__super__ = entities.Enemy;
-entities.Kitten.prototype = $extend(entities.Enemy.prototype,{
+$hxClasses["entities.Bacteria"] = entities.Bacteria;
+entities.Bacteria.__name__ = ["entities","Bacteria"];
+entities.Bacteria.__super__ = entities.Enemy;
+entities.Bacteria.prototype = $extend(entities.Enemy.prototype,{
 	update: function() {
-		this.moveBy(-1,0,"player");
-		if((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < -32) this._scene.remove(this);
+		if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 128 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < 0 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) > 2100) this.gravity = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravity = 2; else this.gravity = 1;
+		var e = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+		if(e == null) this.moveBy(0,this.velocityY + this.gravity); else this.moveBy(0,0);
+		var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+		if(e1 == null) {
+			if(this.velocityX > 0) {
+				this.set_graphic(this.graphicBacteriaRight);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			} else if(this.velocityX < 0) {
+				this.set_graphic(this.graphicBacteriaLeft);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			}
+			this.moveBy(this.velocityX,0);
+			this.stuck = false;
+		} else {
+			if(this.stuck == true) this._scene.remove(this);
+			this.moveBy(0,0);
+			this.velocityX = -this.velocityX;
+			this.stuck = true;
+		}
+		if((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < -32 || this.ttl <= 0 || (this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) > 4000) {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(this);
+		}
+		if(this.ttl % 1000 == 0) this.velocityX = Math.random() * 4.0 + 2.0;
+		if(this.ttl % 10 == 0) this.velocityY = Math.random() * 4.0 * (com.haxepunk.HXP.get_choose())(-1,1);
+		this.ttl--;
 	}
-	,__class__: entities.Kitten
+	,__class__: entities.Bacteria
 });
-entities.Player = function(x,y) {
+entities.Bullet = function(x,y,move,angle) {
+	if(angle == null) angle = 0;
+	if(move == null) move = 20;
 	com.haxepunk.Entity.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image("graphics/bus2.png"));
-	this.width = 128;
-	this.height = 64;
-	this.width = 128;
-	this.height = 64;
+	this.move = move;
+	this.angle = angle;
+	this.set_graphic(com.haxepunk.graphics.Image.createRect(5,5,0));
+	this.width = 5;
+	this.height = 5;
 	this.originX = 0;
 	this.originY = 0;
-	com.haxepunk.utils.Input.define("up",[38,87]);
-	com.haxepunk.utils.Input.define("down",[40,83]);
-	com.haxepunk.utils.Input.define("right",[39,65]);
-	com.haxepunk.utils.Input.define("left",[37,68]);
-	com.haxepunk.utils.Input.define("shoot",[32]);
-	com.haxepunk.utils.Input.define("debugUI",[72]);
-	this.velocityX = 0;
-	this.velocityY = 0;
-	this.set_type("player");
-	this.shootDelay = 5;
-	this.worldName = new com.haxepunk.graphics.Text("World: ?");
-	this.initUI();
-	this.showUI = true;
+	this.set_type("bullet");
+	this.ttl = 100;
 };
-$hxClasses["entities.Player"] = entities.Player;
-entities.Player.__name__ = ["entities","Player"];
-entities.Player.__super__ = com.haxepunk.Entity;
-entities.Player.prototype = $extend(com.haxepunk.Entity.prototype,{
-	handleInput: function() {
-		this.accelerationX = 0;
-		this.accelerationY = 0;
-		if(com.haxepunk.utils.Input.check("up")) this.accelerationY = -1;
-		if(com.haxepunk.utils.Input.check("down")) this.accelerationY = 1;
-		if(com.haxepunk.utils.Input.check("right")) this.accelerationX = 1;
-		if(com.haxepunk.utils.Input.check("left")) this.accelerationX = -1;
-		if((com.haxepunk.utils.Input.mouseDown || com.haxepunk.utils.Input.check("shoot")) && this.shootDelay <= 0) {
-			this._scene.add(new entities.Bullet(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y));
-			this.shootDelay = 5;
+$hxClasses["entities.Bullet"] = entities.Bullet;
+entities.Bullet.__name__ = ["entities","Bullet"];
+entities.Bullet.__super__ = com.haxepunk.Entity;
+entities.Bullet.prototype = $extend(com.haxepunk.Entity.prototype,{
+	moveCollideX: function(e) {
+		if(e._type == "enemy") {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(e);
 		}
-		if(com.haxepunk.utils.Input.pressed("debugUI")) {
-			if(this.showUI == true) this.showUI = false; else this.showUI = true;
+		this._scene.remove(this);
+		return true;
+	}
+	,moveCollideY: function(e) {
+		if(e._type == "enemy") {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(e);
 		}
-		this.shootDelay--;
-	}
-	,move: function() {
-		this.velocityX += this.accelerationX * 3;
-		if(Math.abs(this.velocityX) > 8) this.velocityX = 8 * com.haxepunk.HXP.sign(this.velocityX);
-		if(this.velocityX < 0) this.velocityX = Math.min(this.velocityX + 1.6,0); else if(this.velocityX > 0) this.velocityX = Math.max(this.velocityX - 1.6,0);
-		this.velocityY += this.accelerationY * 3;
-		if(Math.abs(this.velocityY) > 8) this.velocityY = 8 * com.haxepunk.HXP.sign(this.velocityY);
-		if(this.velocityY < 0) this.velocityY = Math.min(this.velocityY + 1.6,0); else if(this.velocityY > 0) this.velocityY = Math.max(this.velocityY - 1.6,0);
-	}
-	,initUI: function() {
-		this.showUI = false;
-		var uiHeight = com.haxepunk.HXP.screen.height * -0.5;
-		var uiWidth = com.haxepunk.HXP.screen.width * 0.30;
-		var uiSpacing = 25;
-		this.ui_worldText = new com.haxepunk.graphics.Text(this.worldName._text);
-		this.ui_worldText.set_color(52479);
-		this.ui_worldText.set_size(28);
-		this.ui_worldText.x = uiWidth;
-		this.ui_worldText.y = uiHeight + 0 * uiSpacing;
-		this.addGraphic(this.ui_worldText);
-		this.ui_xText = new com.haxepunk.graphics.Text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
-		this.ui_xText.set_color(52479);
-		this.ui_xText.set_size(28);
-		this.ui_xText.x = uiWidth;
-		this.ui_xText.y = uiHeight + uiSpacing;
-		this.addGraphic(this.ui_xText);
-		this.ui_yText = new com.haxepunk.graphics.Text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
-		this.ui_yText.set_color(52479);
-		this.ui_yText.set_size(28);
-		this.ui_yText.x = uiWidth;
-		this.ui_yText.y = uiHeight + 2 * uiSpacing;
-		this.addGraphic(this.ui_yText);
-		this.ui_velocityXText = new com.haxepunk.graphics.Text("X Velocity: " + this.velocityX);
-		this.ui_velocityXText.set_color(52479);
-		this.ui_velocityXText.set_size(28);
-		this.ui_velocityXText.x = uiWidth;
-		this.ui_velocityXText.y = uiHeight + 3 * uiSpacing;
-		this.addGraphic(this.ui_velocityXText);
-		this.ui_velocityYText = new com.haxepunk.graphics.Text("Y Velocity: " + this.velocityY);
-		this.ui_velocityYText.set_color(52479);
-		this.ui_velocityYText.set_size(28);
-		this.ui_velocityYText.x = uiWidth;
-		this.ui_velocityYText.y = uiHeight + 4 * uiSpacing;
-		this.addGraphic(this.ui_velocityYText);
-	}
-	,updateUI: function() {
-		this.ui_worldText.set_text(this.worldName._text);
-		this.ui_xText.set_text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
-		this.ui_yText.set_text("y: " + (this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y));
-		this.ui_velocityYText.set_text("Y Velocity: " + this.velocityY);
-		this.ui_velocityXText.set_text("X Velocity: " + this.velocityX);
-	}
-	,hideUI: function() {
-		this.ui_worldText.set_text("");
-		this.ui_xText.set_text("");
-		this.ui_yText.set_text("");
-		this.ui_velocityXText.set_text("");
-		this.ui_velocityYText.set_text("");
+		this._scene.remove(this);
+		return true;
 	}
 	,update: function() {
-		if(this.showUI == true) this.updateUI(); else this.hideUI();
-		this.handleInput();
-		this.move();
-		var e = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
-		if(e == null) {
-			haxe.Log.trace("Not colliding X",{ fileName : "Player.hx", lineNumber : 197, className : "entities.Player", methodName : "update"});
-			this.moveBy(this.velocityX,0);
-			com.haxepunk.HXP._scene.camera.x += this.velocityX;
-		} else this.moveBy(0,0);
-		var e1 = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + 2.4);
-		if(e1 == null) {
-			haxe.Log.trace("Not colliding Y",{ fileName : "Player.hx", lineNumber : 210, className : "entities.Player", methodName : "update"});
-			this.moveBy(0,this.velocityY + 2.4);
-			com.haxepunk.HXP._scene.camera.y += this.velocityY + 2.4;
-		} else this.moveBy(0,0);
+		this.moveAtAngle(this.angle,this.move,["enemy","terrain"],null);
+		this.ttl--;
+		if(this.ttl <= 0) this._scene.remove(this);
 		com.haxepunk.Entity.prototype.update.call(this);
 	}
-	,__class__: entities.Player
+	,__class__: entities.Bullet
 });
-entities.Straw = function(x,y) {
-	entities.Terrain.call(this,x,y);
-	this.set_graphic(new com.haxepunk.graphics.Image("graphics/drinkingstraw.png"));
-	this._graphic.x = -140;
-	this._graphic.y = -200;
-	this.set_mask(new com.haxepunk.masks.Pixelmask("graphics/drinkingstraw.png"));
+entities.Cookie = function(x,y,cookieGraphic) {
+	com.haxepunk.Entity.call(this,x,y);
+	this.set_graphic(cookieGraphic);
+	this._graphic.x = this._graphic.y = -16;
+	this.width = 96;
+	this.height = 96;
+	this.originX = 0;
+	this.originY = 0;
+	this.set_type("cookie");
 };
-$hxClasses["entities.Straw"] = entities.Straw;
-entities.Straw.__name__ = ["entities","Straw"];
-entities.Straw.__super__ = entities.Terrain;
-entities.Straw.prototype = $extend(entities.Terrain.prototype,{
+$hxClasses["entities.Cookie"] = entities.Cookie;
+entities.Cookie.__name__ = ["entities","Cookie"];
+entities.Cookie.__super__ = com.haxepunk.Entity;
+entities.Cookie.prototype = $extend(com.haxepunk.Entity.prototype,{
+	__class__: entities.Cookie
+});
+entities.Cow = function(x,y) {
+	this.graphicCowLeft = new com.haxepunk.graphics.Image("graphics/moocowleft.png");
+	this.graphicCowRight = new com.haxepunk.graphics.Image("graphics/moocowright.png");
+	this.gravity = 4;
+	entities.Enemy.call(this,x,y);
+	var e = this.collide("terrain",x,y);
+	if(e != null) this._scene.remove(this);
+	this.set_graphic(this.graphicCowRight);
+	this._graphic.x = -18;
+	this._graphic.y = -6;
+	this.width = 104;
+	this.height = 57;
+	this.originX = 0;
+	this.originY = 0;
+	this.set_type("enemy");
+	this.velocityX = Math.random() * 2.0;
+	this.velocityY = 0;
+	this.stuck = false;
+	this.ttl = 3000;
+};
+$hxClasses["entities.Cow"] = entities.Cow;
+entities.Cow.__name__ = ["entities","Cow"];
+entities.Cow.__super__ = entities.Enemy;
+entities.Cow.prototype = $extend(entities.Enemy.prototype,{
 	update: function() {
-		entities.Terrain.prototype.update.call(this);
-	}
-	,__class__: entities.Straw
-});
-flash._Lib = {};
-flash._Lib.CursorType = $hxClasses["flash._Lib.CursorType"] = { __ename__ : true, __constructs__ : ["Pointer","Text","Default"] };
-flash._Lib.CursorType.Pointer = ["Pointer",0];
-flash._Lib.CursorType.Pointer.toString = $estr;
-flash._Lib.CursorType.Pointer.__enum__ = flash._Lib.CursorType;
-flash._Lib.CursorType.Text = ["Text",1];
-flash._Lib.CursorType.Text.toString = $estr;
-flash._Lib.CursorType.Text.__enum__ = flash._Lib.CursorType;
-flash._Lib.CursorType.Default = ["Default",2];
-flash._Lib.CursorType.Default.toString = $estr;
-flash._Lib.CursorType.Default.__enum__ = flash._Lib.CursorType;
-flash._Vector = {};
-flash._Vector.Vector_Impl_ = function() { };
-$hxClasses["flash._Vector.Vector_Impl_"] = flash._Vector.Vector_Impl_;
-flash._Vector.Vector_Impl_.__name__ = ["flash","_Vector","Vector_Impl_"];
-flash._Vector.Vector_Impl_.__properties__ = {set_fixed:"set_fixed",get_fixed:"get_fixed",set_length:"set_length",get_length:"get_length"}
-flash._Vector.Vector_Impl_._new = function(length,fixed) {
-	return new Array();
-};
-flash._Vector.Vector_Impl_.concat = function(this1,a) {
-	var a1 = this1.concat(a);
-	return a1;
-};
-flash._Vector.Vector_Impl_.copy = function(this1) {
-	var a = this1.slice();
-	return a;
-};
-flash._Vector.Vector_Impl_.iterator = function(this1) {
-	return HxOverrides.iter(this1);
-};
-flash._Vector.Vector_Impl_.join = function(this1,sep) {
-	return this1.join(sep);
-};
-flash._Vector.Vector_Impl_.pop = function(this1) {
-	return this1.pop();
-};
-flash._Vector.Vector_Impl_.push = function(this1,x) {
-	return this1.push(x);
-};
-flash._Vector.Vector_Impl_.reverse = function(this1) {
-	this1.reverse();
-};
-flash._Vector.Vector_Impl_.shift = function(this1) {
-	return this1.shift();
-};
-flash._Vector.Vector_Impl_.unshift = function(this1,x) {
-	this1.unshift(x);
-};
-flash._Vector.Vector_Impl_.slice = function(this1,pos,end) {
-	var a = this1.slice(pos,end);
-	return a;
-};
-flash._Vector.Vector_Impl_.sort = function(this1,f) {
-	this1.sort(f);
-};
-flash._Vector.Vector_Impl_.splice = function(this1,pos,len) {
-	var a = this1.splice(pos,len);
-	return a;
-};
-flash._Vector.Vector_Impl_.toString = function(this1) {
-	return this1.toString();
-};
-flash._Vector.Vector_Impl_.indexOf = function(this1,x,from) {
-	if(from == null) from = 0;
-	var _g1 = from;
-	var _g = this1.length;
-	while(_g1 < _g) {
-		var i = _g1++;
-		if(this1[i] == x) return i;
-	}
-	return -1;
-};
-flash._Vector.Vector_Impl_.lastIndexOf = function(this1,x,from) {
-	if(from == null) from = 0;
-	var i = this1.length - 1;
-	while(i >= from) {
-		if(this1[i] == x) return i;
-		i--;
-	}
-	return -1;
-};
-flash._Vector.Vector_Impl_.ofArray = function(a) {
-	return flash._Vector.Vector_Impl_.concat(flash._Vector.Vector_Impl_._new(),a);
-};
-flash._Vector.Vector_Impl_.convert = function(v) {
-	return v;
-};
-flash._Vector.Vector_Impl_.fromArray = function(a) {
-	return a;
-};
-flash._Vector.Vector_Impl_.toArray = function(this1) {
-	return this1;
-};
-flash._Vector.Vector_Impl_.get_length = function(this1) {
-	return this1.length;
-};
-flash._Vector.Vector_Impl_.set_length = function(this1,value) {
-	if(value < this1.length) this1 = this1.slice(0,value);
-	while(value > this1.length) this1.push(null);
-	return value;
-};
-flash._Vector.Vector_Impl_.get_fixed = function(this1) {
-	return false;
-};
-flash._Vector.Vector_Impl_.set_fixed = function(this1,value) {
-	return value;
-};
-flash.accessibility = {};
-flash.accessibility.AccessibilityProperties = function() {
-	this.description = "";
-	this.forceSimple = false;
-	this.name = "";
-	this.noAutoLabeling = false;
-	this.shortcut = "";
-	this.silent = false;
-};
-$hxClasses["flash.accessibility.AccessibilityProperties"] = flash.accessibility.AccessibilityProperties;
-flash.accessibility.AccessibilityProperties.__name__ = ["flash","accessibility","AccessibilityProperties"];
-flash.accessibility.AccessibilityProperties.prototype = {
-	__class__: flash.accessibility.AccessibilityProperties
-};
-flash.display.Bitmap = function(inBitmapData,inPixelSnapping,inSmoothing) {
-	if(inSmoothing == null) inSmoothing = false;
-	flash.display.DisplayObject.call(this);
-	this.pixelSnapping = inPixelSnapping;
-	this.smoothing = inSmoothing;
-	if(inBitmapData != null) {
-		this.set_bitmapData(inBitmapData);
-		if(this.bitmapData.__referenceCount == 1) this.__graphics = new flash.display.Graphics(this.bitmapData.___textureBuffer);
-	}
-	if(this.pixelSnapping == null) this.pixelSnapping = flash.display.PixelSnapping.AUTO;
-	if(this.__graphics == null) this.__graphics = new flash.display.Graphics();
-	if(this.bitmapData != null) this.__render();
-};
-$hxClasses["flash.display.Bitmap"] = flash.display.Bitmap;
-flash.display.Bitmap.__name__ = ["flash","display","Bitmap"];
-flash.display.Bitmap.__super__ = flash.display.DisplayObject;
-flash.display.Bitmap.prototype = $extend(flash.display.DisplayObject.prototype,{
-	getBitmapSurfaceTransform: function(gfx) {
-		var extent = gfx.__extentWithFilters;
-		var fm = this.transform.__getFullMatrix(null);
-		fm.__translateTransformed(extent.get_topLeft());
-		return fm;
-	}
-	,toString: function() {
-		return "[Bitmap name=" + this.name + " id=" + this.___id + "]";
-	}
-	,validateBounds: function() {
-		if(this.get__boundsInvalid()) {
-			flash.display.DisplayObject.prototype.validateBounds.call(this);
-			if(this.bitmapData != null) {
-				var r = new flash.geom.Rectangle(0,0,this.bitmapData.get_width(),this.bitmapData.get_height());
-				if(r.width != 0 || r.height != 0) {
-					if(this.__boundsRect.width == 0 && this.__boundsRect.height == 0) this.__boundsRect = r.clone(); else this.__boundsRect.extendBounds(r);
-				}
+		if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 128 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < 0 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) > 2100) this.gravity = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravity = 5; else this.gravity = 4;
+		var e = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+		if(e == null) this.moveBy(0,this.velocityY + this.gravity); else {
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
 			}
-			if(this.scale9Grid != null) {
-				this.__boundsRect.width *= this.__scaleX;
-				this.__boundsRect.height *= this.__scaleY;
-				this.__width = this.__boundsRect.width;
-				this.__height = this.__boundsRect.height;
-			} else {
-				this.__width = this.__boundsRect.width * this.__scaleX;
-				this.__height = this.__boundsRect.height * this.__scaleY;
-			}
+			this.moveBy(0,0);
+			this.stuck = true;
 		}
-	}
-	,__getGraphics: function() {
-		return this.__graphics;
-	}
-	,__getObjectUnderPoint: function(point) {
-		if(!this.get_visible()) return null; else if(this.bitmapData != null) {
-			var local = this.globalToLocal(point);
-			if(local.x < 0 || local.y < 0 || local.x > this.get_width() / this.get_scaleX() || local.y > this.get_height() / this.get_scaleY()) return null; else return this;
-		} else return flash.display.DisplayObject.prototype.__getObjectUnderPoint.call(this,point);
-	}
-	,__render: function(inMask,clipRect) {
-		if(!this.__combinedVisible) return;
-		if(this.bitmapData == null) return;
-		if((this.___renderFlags & 4) != 0 || (this.___renderFlags & 8) != 0) this.__validateMatrix();
-		if(this.bitmapData.___textureBuffer != this.__graphics.__surface) {
-			var imageDataLease = this.bitmapData.__lease;
-			if(imageDataLease != null && (this.__currentLease == null || imageDataLease.seed != this.__currentLease.seed || imageDataLease.time != this.__currentLease.time)) {
-				var srcCanvas = this.bitmapData.___textureBuffer;
-				this.__graphics.__surface.width = srcCanvas.width;
-				this.__graphics.__surface.height = srcCanvas.height;
-				this.__graphics.clear();
-				flash.Lib.__drawToSurface(srcCanvas,this.__graphics.__surface);
-				this.__currentLease = imageDataLease.clone();
-				this.___renderFlags |= 64;
-				if(this.parent != null) this.parent.___renderFlags |= 64;
-				this.__applyFilters(this.__graphics.__surface);
-				this.___renderFlags |= 32;
+		var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+		if(e1 == null) {
+			if(this.velocityX > 0) {
+				this.set_graphic(this.graphicCowRight);
+				this._graphic.x = -18;
+				this._graphic.y = -6;
+			} else if(this.velocityX < 0) {
+				this.set_graphic(this.graphicCowLeft);
+				this._graphic.x = -18;
+				this._graphic.y = -6;
 			}
-		}
-		if(inMask != null) {
-			this.__applyFilters(this.__graphics.__surface);
-			var m = this.getBitmapSurfaceTransform(this.__graphics);
-			flash.Lib.__drawToSurface(this.__graphics.__surface,inMask,m,(this.parent != null?this.parent.__combinedAlpha:1) * this.alpha,clipRect,this.smoothing);
+			this.moveBy(this.velocityX,0);
+			this.stuck = false;
 		} else {
-			if((this.___renderFlags & 32) != 0) {
-				var m1 = this.getBitmapSurfaceTransform(this.__graphics);
-				flash.Lib.__setSurfaceTransform(this.__graphics.__surface,m1);
-				this.___renderFlags &= -33;
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),15);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),15);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
 			}
-			if(!this.__init) {
-				flash.Lib.__setSurfaceOpacity(this.__graphics.__surface,0);
-				this.__init = true;
-			} else flash.Lib.__setSurfaceOpacity(this.__graphics.__surface,(this.parent != null?this.parent.__combinedAlpha:1) * this.alpha);
+			this.moveBy(0,0);
+			this.velocityX = -this.velocityX;
+			this.stuck = true;
+		}
+		if(this.ttl <= 0) {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(this);
+		}
+		if(this.ttl % 500 == 0) {
+			this.velocityX = Math.random() * (com.haxepunk.HXP.get_choose())(1,1,1,1,1,1,1,10);
+			this.velocityY = 0;
+		}
+		this.ttl--;
+	}
+	,__class__: entities.Cow
+});
+entities.ParticleController = function() {
+	com.haxepunk.Entity.call(this,this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+	this.emitter = new com.haxepunk.graphics.Emitter(new flash.display.BitmapData(3,3,false,16711680),3,3);
+	this.emitter.newType("explosion",[0]);
+	this.emitter.setMotion("explosion",0,Std.random(200),3,360,-40,1,com.haxepunk.utils.Ease.quadOut);
+	this.emitter.setAlpha("explosion",1,0.1);
+	this.set_graphic(this.emitter);
+};
+$hxClasses["entities.ParticleController"] = entities.ParticleController;
+entities.ParticleController.__name__ = ["entities","ParticleController"];
+entities.ParticleController.__super__ = com.haxepunk.Entity;
+entities.ParticleController.prototype = $extend(com.haxepunk.Entity.prototype,{
+	explosion: function(_x,_y,_p) {
+		if(_p == null) _p = 20;
+		haxe.Log.trace("Starting explosion with _x: " + _x + " _y: " + _y,{ fileName : "ParticleController.hx", lineNumber : 28, className : "entities.ParticleController", methodName : "explosion"});
+		this.emitter.setMotion("explosion",0,Std.random(200),Std.random(4),360,Std.random(-40),1,com.haxepunk.utils.Ease.quadOut);
+		this.emitter.setColor("explosion",(com.haxepunk.HXP.get_choose())(0,16711680,65280,255,16777215,3355443,3368703,3407667),(com.haxepunk.HXP.get_choose())(0,16711680,65280,255,16777215,3355443,3368703,3407667));
+		var _g = 0;
+		while(_g < _p) {
+			var i = _g++;
+			haxe.Log.trace("EXPLOSION " + i + " starting",{ fileName : "ParticleController.hx", lineNumber : 32, className : "entities.ParticleController", methodName : "explosion"});
+			this.emitter.emit("explosion",_x,_y);
+			haxe.Log.trace("EXPLOSION " + i + " finished",{ fileName : "ParticleController.hx", lineNumber : 34, className : "entities.ParticleController", methodName : "explosion"});
 		}
 	}
-	,set_bitmapData: function(inBitmapData) {
-		if(inBitmapData != this.bitmapData) {
-			if(this.bitmapData != null) {
-				this.bitmapData.__referenceCount--;
-				if(this.__graphics.__surface == this.bitmapData.___textureBuffer) flash.Lib.__setSurfaceOpacity(this.bitmapData.___textureBuffer,0);
-			}
-			if(inBitmapData != null) inBitmapData.__referenceCount++;
-		}
-		this.___renderFlags |= 64;
-		if(this.parent != null) this.parent.___renderFlags |= 64;
-		this.bitmapData = inBitmapData;
-		return inBitmapData;
-	}
-	,__class__: flash.display.Bitmap
-	,__properties__: $extend(flash.display.DisplayObject.prototype.__properties__,{set_bitmapData:"set_bitmapData"})
+	,__class__: entities.ParticleController
 });
 flash.display.BitmapData = function(width,height,transparent,inFillColor) {
 	if(inFillColor == null) inFillColor = -1;
@@ -14092,6 +14400,730 @@ flash.display.ImageDataLease.prototype = {
 	}
 	,__class__: flash.display.ImageDataLease
 };
+entities.GV = function() { };
+$hxClasses["entities.GV"] = entities.GV;
+entities.GV.__name__ = ["entities","GV"];
+entities.Kitten = function(x,y) {
+	this.graphicKittyLeft = new com.haxepunk.graphics.Image("graphics/kittyleft.png");
+	this.graphicKittyRight = new com.haxepunk.graphics.Image("graphics/kittyright.png");
+	this.gravity = 1;
+	entities.Enemy.call(this,x,y);
+	var e = this.collide("terrain",x,y);
+	if(e != null) this._scene.remove(this);
+	this.set_graphic(this.graphicKittyRight);
+	this._graphic.x = -8;
+	this._graphic.y = -10;
+	this.width = 48;
+	this.height = 52;
+	this.originX = 0;
+	this.originY = 0;
+	this.set_type("enemy");
+	this.velocityX = Math.random() * 4.0;
+	this.velocityY = Math.random() * 4.0;
+	this.stuck = false;
+	this.ttl = 3000;
+};
+$hxClasses["entities.Kitten"] = entities.Kitten;
+entities.Kitten.__name__ = ["entities","Kitten"];
+entities.Kitten.__super__ = entities.Enemy;
+entities.Kitten.prototype = $extend(entities.Enemy.prototype,{
+	update: function() {
+		if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 128 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < 0 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) > 2100) this.gravity = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravity = 2; else this.gravity = 1;
+		var e = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+		if(e == null) this.moveBy(0,this.velocityY + this.gravity); else this.moveBy(0,0);
+		var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+		if(e1 == null) {
+			if(this.velocityX > 0) {
+				this.set_graphic(this.graphicKittyRight);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			} else if(this.velocityX < 0) {
+				this.set_graphic(this.graphicKittyLeft);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			}
+			this.moveBy(this.velocityX,0);
+			this.stuck = false;
+		} else {
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),15);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),15);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
+			}
+			this.moveBy(0,0);
+			this.velocityX = -this.velocityX;
+			this.stuck = true;
+		}
+		if(this.ttl <= 0) {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),15);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(this);
+		}
+		if(this.ttl % 250 == 0) {
+			this.velocityX = Math.random() * 4.0;
+			this.velocityY = Math.random() * 4.0 * (com.haxepunk.HXP.get_choose())(-1,1);
+		}
+		this.ttl--;
+	}
+	,__class__: entities.Kitten
+});
+entities.MindControlCow = function(x,y) {
+	entities.Cow.call(this,x,y);
+	this.graphicCowRight = new com.haxepunk.graphics.Image("graphics/mindcontrolmoocowright.png");
+	this.graphicCowLeft = new com.haxepunk.graphics.Image("graphics/mindcontrolmoocowleft.png");
+};
+$hxClasses["entities.MindControlCow"] = entities.MindControlCow;
+entities.MindControlCow.__name__ = ["entities","MindControlCow"];
+entities.MindControlCow.__super__ = entities.Cow;
+entities.MindControlCow.prototype = $extend(entities.Cow.prototype,{
+	update: function() {
+		if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 128 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < 0 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) > 2100) this.gravity = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravity = 5; else this.gravity = 4;
+		var e = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+		if(e == null) this.moveBy(0,this.velocityY + this.gravity); else {
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
+			}
+			this.moveBy(0,0);
+			this.stuck = true;
+		}
+		var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+		if(e1 == null) {
+			if(this.velocityX > 0) {
+				this.set_graphic(this.graphicCowRight);
+				this._graphic.x = -18;
+				this._graphic.y = -6;
+			} else if(this.velocityX < 0) {
+				this.set_graphic(this.graphicCowLeft);
+				this._graphic.x = -18;
+				this._graphic.y = -6;
+			}
+			this.moveBy(this.velocityX,0);
+			this.stuck = false;
+		} else {
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
+			}
+			this.moveBy(0,0);
+			this.velocityX = -this.velocityX;
+			this.stuck = true;
+		}
+		if(this.ttl <= 0) {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(this);
+		}
+		if(this.ttl % 250 == 0) {
+			this.velocityX = Math.random() * (com.haxepunk.HXP.get_choose())(1,10);
+			this.velocityY = 0;
+		}
+		this.ttl--;
+	}
+	,__class__: entities.MindControlCow
+});
+entities.MindControlKitten = function(x,y) {
+	entities.Kitten.call(this,x,y);
+	this.graphicKittyRight = new com.haxepunk.graphics.Image("graphics/jetpackkittyright.png");
+	this.graphicKittyLeft = new com.haxepunk.graphics.Image("graphics/jetpackkittyleft.png");
+};
+$hxClasses["entities.MindControlKitten"] = entities.MindControlKitten;
+entities.MindControlKitten.__name__ = ["entities","MindControlKitten"];
+entities.MindControlKitten.__super__ = entities.Kitten;
+entities.MindControlKitten.prototype = $extend(entities.Kitten.prototype,{
+	update: function() {
+		if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 128 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) < 0 || (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) > 2100) this.gravity = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravity = 2; else this.gravity = 1;
+		var e = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+		if(e == null) this.moveBy(0,this.velocityY + this.gravity); else this.moveBy(0,0);
+		var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+		if(e1 == null) {
+			if(this.velocityX > 0) {
+				this.set_graphic(this.graphicKittyRight);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			} else if(this.velocityX < 0) {
+				this.set_graphic(this.graphicKittyLeft);
+				this._graphic.x = -8;
+				this._graphic.y = -10;
+			}
+			this.moveBy(this.velocityX,0);
+			this.stuck = false;
+		} else {
+			if(this.stuck == true) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+				entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+				this._scene.remove(this);
+			}
+			this.moveBy(0,0);
+			this.velocityX = -this.velocityX;
+			this.stuck = true;
+		}
+		if(this.ttl <= 0) {
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) - Std.random(20),(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) - Std.random(20),20);
+			entities.GV.PARTICLE_EMITTER.explosion(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,20);
+			this._scene.remove(this);
+		}
+		if(this.ttl % 50 == 0) {
+			this.velocityX = Math.random() * 5.0;
+			this.velocityY = Math.random() * 5.0 * (com.haxepunk.HXP.get_choose())(-1,1);
+		}
+		this.ttl--;
+	}
+	,__class__: entities.MindControlKitten
+});
+entities.Player = function(x,y) {
+	this.gravity = 3;
+	this.worldText = new com.haxepunk.graphics.Text("test");
+	this.graphicShipLeft = new com.haxepunk.graphics.Image("graphics/Milkshipleft.png");
+	this.graphicShipRight = new com.haxepunk.graphics.Image("graphics/Milkshipright.png");
+	com.haxepunk.Entity.call(this,x,y);
+	this.destroyed = false;
+	this.set_graphic(this.graphicShipRight);
+	this.facing = "right";
+	this.width = 128;
+	this.height = 64;
+	this.width = 128;
+	this.height = 64;
+	this.originX = 0;
+	this.originY = 0;
+	com.haxepunk.utils.Input.define("up",[38,87]);
+	com.haxepunk.utils.Input.define("down",[40,83]);
+	com.haxepunk.utils.Input.define("right",[39,65]);
+	com.haxepunk.utils.Input.define("left",[37,68]);
+	com.haxepunk.utils.Input.define("shoot",[32]);
+	com.haxepunk.utils.Input.define("debugUI",[72]);
+	com.haxepunk.utils.Input.define("restart",[82]);
+	com.haxepunk.utils.Input.define("next_world",[78]);
+	com.haxepunk.utils.Input.define("previous_world",[80]);
+	this.velocityX = 0;
+	this.velocityY = 0;
+	this.set_type("player");
+	this.gravityMultiplier = 7;
+	this.worldLevel = 0;
+	this.shootDelay = 5;
+	this.maxHealth = 6;
+	this.health = this.maxHealth;
+	this.worldTextUpdateCounter = 150;
+	this.textUpdate();
+	this.worldName = new com.haxepunk.graphics.Text("World: ?");
+	this.initUI();
+	this.showUI = false;
+};
+$hxClasses["entities.Player"] = entities.Player;
+entities.Player.__name__ = ["entities","Player"];
+entities.Player.__super__ = com.haxepunk.Entity;
+entities.Player.prototype = $extend(com.haxepunk.Entity.prototype,{
+	handleInput: function() {
+		this.accelerationX = 0;
+		this.accelerationY = 0;
+		if(com.haxepunk.utils.Input.check("up")) this.accelerationY = -1;
+		if(com.haxepunk.utils.Input.check("down")) this.accelerationY = 1;
+		if(com.haxepunk.utils.Input.check("right") && this.destroyed == false) {
+			this.accelerationX = 1;
+			this.set_graphic(this.graphicShipRight);
+			if(this.showUI == true) this.initUI();
+			if(this.worldTextUpdateCounter > 0) this.textUpdate();
+			this.facing = "right";
+		}
+		if(com.haxepunk.utils.Input.check("left") && this.destroyed == false) {
+			this.accelerationX = -1;
+			this.set_graphic(this.graphicShipLeft);
+			if(this.showUI == true) this.initUI();
+			if(this.worldTextUpdateCounter > 0) this.textUpdate();
+			this.facing = "left";
+		}
+		if((com.haxepunk.utils.Input.mouseDown || com.haxepunk.utils.Input.check("shoot")) && this.shootDelay <= 0 && this.destroyed == false) {
+			this._scene.add(new entities.Bullet((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.width / 2,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.height / 2,20,Std["int"](com.haxepunk.HXP.angle(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y,Std["int"](com.haxepunk.HXP.screen.get_mouseX() + this._scene.camera.x),Std["int"](com.haxepunk.HXP.screen.get_mouseY() + this._scene.camera.y)) + 0.5)));
+			this.shootDelay = 30;
+		}
+		if(com.haxepunk.utils.Input.pressed("debugUI")) {
+			if(this.showUI == true) this.showUI = false; else this.showUI = true;
+		}
+		if(com.haxepunk.utils.Input.pressed("restart")) this.restart();
+		if(com.haxepunk.utils.Input.pressed("next_world")) {
+			this.worldLevel++;
+			this.loadWorld();
+		}
+		if(com.haxepunk.utils.Input.pressed("previous_world")) {
+			if(this.worldLevel > 1) this.worldLevel--;
+			this.loadWorld();
+		}
+		this.shootDelay--;
+	}
+	,move: function() {
+		this.velocityX += this.accelerationX * 5;
+		if(Math.abs(this.velocityX) > 8) this.velocityX = 8 * com.haxepunk.HXP.sign(this.velocityX);
+		if(this.velocityX < 0) this.velocityX = Math.min(this.velocityX + 1,0); else if(this.velocityX > 0) this.velocityX = Math.max(this.velocityX - 1,0);
+		this.velocityY += this.accelerationY * 5;
+		if(Math.abs(this.velocityY) > 8) this.velocityY = 8 * com.haxepunk.HXP.sign(this.velocityY);
+		if(this.velocityY < 0) this.velocityY = Math.min(this.velocityY + 1,0); else if(this.velocityY > 0) this.velocityY = Math.max(this.velocityY - 1,0);
+	}
+	,updateHealthBar: function() {
+		this.healthBarGraphicBorder = com.haxepunk.graphics.Image.createRect(122,12,0);
+		this.healthBarGraphicBorder.x = -1;
+		this.healthBarGraphicBorder.y = -33;
+		this.addGraphic(this.healthBarGraphicBorder);
+		this.healthBarGraphic = com.haxepunk.graphics.Image.createRect(120 * (this.health / this.maxHealth) + 0.5 | 0,10,52224);
+		this.healthBarGraphic.y = -32;
+		this.addGraphic(this.healthBarGraphic);
+	}
+	,initUI: function() {
+		var uiHeight = -365;
+		var uiWidth = 325;
+		var uiSpacing = 25;
+		this.ui_worldText = new com.haxepunk.graphics.Text(this.worldName._text);
+		this.ui_worldText.set_color(52479);
+		this.ui_worldText.set_size(28);
+		this.ui_worldText.x = uiWidth;
+		this.ui_worldText.y = uiHeight + 0 * uiSpacing;
+		this.addGraphic(this.ui_worldText);
+		this.ui_xText = new com.haxepunk.graphics.Text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
+		this.ui_xText.set_color(52479);
+		this.ui_xText.set_size(28);
+		this.ui_xText.x = uiWidth;
+		this.ui_xText.y = uiHeight + uiSpacing;
+		this.addGraphic(this.ui_xText);
+		this.ui_yText = new com.haxepunk.graphics.Text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
+		this.ui_yText.set_color(52479);
+		this.ui_yText.set_size(28);
+		this.ui_yText.x = uiWidth;
+		this.ui_yText.y = uiHeight + 2 * uiSpacing;
+		this.addGraphic(this.ui_yText);
+		this.ui_velocityXText = new com.haxepunk.graphics.Text("X Velocity: " + this.velocityX);
+		this.ui_velocityXText.set_color(52479);
+		this.ui_velocityXText.set_size(28);
+		this.ui_velocityXText.x = uiWidth;
+		this.ui_velocityXText.y = uiHeight + 3 * uiSpacing;
+		this.addGraphic(this.ui_velocityXText);
+		this.ui_velocityYText = new com.haxepunk.graphics.Text("Y Velocity: " + this.velocityY);
+		this.ui_velocityYText.set_color(52479);
+		this.ui_velocityYText.set_size(28);
+		this.ui_velocityYText.x = uiWidth;
+		this.ui_velocityYText.y = uiHeight + 4 * uiSpacing;
+		this.addGraphic(this.ui_velocityYText);
+		this.hideUI();
+	}
+	,updateUI: function() {
+		this.ui_worldText.set_text(this.worldName._text);
+		this.ui_xText.set_text("x: " + (this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x));
+		this.ui_yText.set_text("y: " + (this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y));
+		this.ui_velocityYText.set_text("Y Velocity: " + this.velocityY);
+		this.ui_velocityXText.set_text("X Velocity: " + this.velocityX);
+	}
+	,hideUI: function() {
+		this.ui_worldText.set_text("");
+		this.ui_xText.set_text("");
+		this.ui_yText.set_text("");
+		this.ui_velocityXText.set_text("");
+		this.ui_velocityYText.set_text("");
+	}
+	,textUpdate: function() {
+		var _g = this.worldLevel;
+		switch(_g) {
+		case 1:
+			this.worldText.set_text("World 1 - Into the Milk Glass");
+			break;
+		case 2:
+			this.worldText.set_text("World 2 - Chocolate Rain");
+			break;
+		case 3:
+			this.worldText.set_text("World 3 - Cookie Wonderland");
+			break;
+		case 4:
+			this.worldText.set_text("World 4 - The Core of the Matter");
+			break;
+		case 5:
+			this.worldText.set_text("World 5 - Deeper Down");
+			break;
+		case 6:
+			this.worldText.set_text("World 6 - Den of Thieves");
+			break;
+		case 7:
+			this.worldText.set_text("World 7 - Chocolate Storm");
+			break;
+		case 8:
+			this.worldText.set_text("World 8 - Cosmic Candy Crunch");
+			break;
+		case 9:
+			this.worldText.set_text("World 9 - The Core Revisited");
+			break;
+		case 10:
+			this.worldText.set_text("World 10 - Chocolate Q.E.D.");
+			break;
+		default:
+			this.worldText.set_text("World 1 - Into the Milk Glass");
+		}
+		this.worldText.set_color(16711680);
+		this.worldText.set_size(64);
+		this.worldText.x = com.haxepunk.HXP.screen.x - 475;
+		this.worldText.y = com.haxepunk.HXP.screen.y - 200;
+		this.addGraphic(this.worldText);
+	}
+	,loadWorld: function() {
+		var _g = this.worldLevel;
+		switch(_g) {
+		case 1:
+			com.haxepunk.HXP.set_world(new worlds.World1(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 2:
+			com.haxepunk.HXP.set_world(new worlds.World2(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 3:
+			com.haxepunk.HXP.set_world(new worlds.World3(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 4:
+			com.haxepunk.HXP.set_world(new worlds.World4(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 5:
+			com.haxepunk.HXP.set_world(new worlds.World5(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 6:
+			com.haxepunk.HXP.set_world(new worlds.World6(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 7:
+			com.haxepunk.HXP.set_world(new worlds.World7(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 8:
+			com.haxepunk.HXP.set_world(new worlds.World8(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 9:
+			com.haxepunk.HXP.set_world(new worlds.World9(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		case 10:
+			com.haxepunk.HXP.set_world(new worlds.World10(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+			break;
+		default:
+			this.worldLevel = 1;
+			com.haxepunk.HXP.set_world(new worlds.World1(new entities.Player(com.haxepunk.HXP.halfWidth,com.haxepunk.HXP.halfHeight)));
+		}
+	}
+	,restart: function() {
+		haxe.Log.trace("restart",{ fileName : "Player.hx", lineNumber : 326, className : "entities.Player", methodName : "restart"});
+		($_=com.haxepunk.HXP._scene,$bind($_,$_.removeAll));
+		this.loadWorld();
+	}
+	,update: function() {
+		if(this.worldTextUpdateCounter > 0) {
+			this.textUpdate();
+			this.worldTextUpdateCounter--;
+		}
+		this.handleInput();
+		if(this.destroyed == false) {
+			if(this.showUI == true) this.updateUI(); else {
+			}
+			if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 144) this.gravityMultiplier = 7; else if((this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) < 160) this.gravityMultiplier = 2; else this.gravityMultiplier = 1;
+			this.move();
+			var e = this.collide("enemy",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY);
+			if(e != null) {
+				entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.width / 2,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.height / 2,5);
+				this.health -= 2;
+				this.velocityX = -this.velocityX * 2;
+				this.velocityY = -this.velocityY * 2;
+				if(this.health <= 0) {
+					entities.GV.PARTICLE_EMITTER.explosion((this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.width / 2,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.height / 2,50);
+					this.destroyed = true;
+					this.set_graphic(null);
+					this.set_type("player_dead");
+					this.gravity = 0;
+					this.velocityX = 0;
+					this.velocityY = 0;
+					this.gameOverText = new com.haxepunk.graphics.Text("YOU DIED!  Press 'R' to Restart");
+					this.gameOverText.set_color(16711680);
+					this.gameOverText.set_size(32);
+					this.gameOverText.x = -150;
+					this.gameOverText.y = -100;
+					this.addGraphic(this.gameOverText);
+				}
+			}
+			var e1 = this.collide("terrain",(this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x) + this.velocityX,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+			if(e1 == null) {
+				this.moveBy(this.velocityX,0);
+				com.haxepunk.HXP._scene.camera.x += this.velocityX;
+			} else this.moveBy(0,0);
+			var e2 = this.collide("terrain",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,(this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y) + this.velocityY + this.gravity);
+			if(e2 == null) {
+				this.moveBy(0,this.velocityY + this.gravityMultiplier * this.gravity);
+				com.haxepunk.HXP._scene.camera.y += this.velocityY + this.gravityMultiplier * this.gravity;
+			} else this.moveBy(0,0);
+			var e3 = this.collide("cookie",this.followCamera?this.x + com.haxepunk.HXP.camera.x:this.x,this.followCamera?this.y + com.haxepunk.HXP.camera.y:this.y);
+			if(e3 != null) {
+				haxe.Log.trace("collided with Cookie",{ fileName : "Player.hx", lineNumber : 418, className : "entities.Player", methodName : "update"});
+				this.worldLevel++;
+				($_=com.haxepunk.HXP._scene,$bind($_,$_.removeAll));
+				this.loadWorld();
+			}
+		} else {
+			this.gameOverText.set_text("YOU DIED!  Press 'R' to Restart");
+			this.addGraphic(this.gameOverText);
+		}
+		com.haxepunk.Entity.prototype.update.call(this);
+		haxe.Log.trace("Destroyed: " + Std.string(this.destroyed),{ fileName : "Player.hx", lineNumber : 430, className : "entities.Player", methodName : "update"});
+	}
+	,__class__: entities.Player
+});
+entities.Terrain = function(x,y) {
+	com.haxepunk.Entity.call(this,x,y);
+	this.set_graphic(new com.haxepunk.graphics.Image("graphics/block.png"));
+	this.set_type("terrain");
+};
+$hxClasses["entities.Terrain"] = entities.Terrain;
+entities.Terrain.__name__ = ["entities","Terrain"];
+entities.Terrain.__super__ = com.haxepunk.Entity;
+entities.Terrain.prototype = $extend(com.haxepunk.Entity.prototype,{
+	update: function() {
+		com.haxepunk.Entity.prototype.update.call(this);
+	}
+	,__class__: entities.Terrain
+});
+entities.Straw = function(x,y) {
+	entities.Terrain.call(this,x,y);
+	this.set_graphic(new com.haxepunk.graphics.Image("graphics/drinkingstraw.png"));
+};
+$hxClasses["entities.Straw"] = entities.Straw;
+entities.Straw.__name__ = ["entities","Straw"];
+entities.Straw.__super__ = entities.Terrain;
+entities.Straw.prototype = $extend(entities.Terrain.prototype,{
+	update: function() {
+		entities.Terrain.prototype.update.call(this);
+	}
+	,__class__: entities.Straw
+});
+flash._Lib = {};
+flash._Lib.CursorType = $hxClasses["flash._Lib.CursorType"] = { __ename__ : true, __constructs__ : ["Pointer","Text","Default"] };
+flash._Lib.CursorType.Pointer = ["Pointer",0];
+flash._Lib.CursorType.Pointer.toString = $estr;
+flash._Lib.CursorType.Pointer.__enum__ = flash._Lib.CursorType;
+flash._Lib.CursorType.Text = ["Text",1];
+flash._Lib.CursorType.Text.toString = $estr;
+flash._Lib.CursorType.Text.__enum__ = flash._Lib.CursorType;
+flash._Lib.CursorType.Default = ["Default",2];
+flash._Lib.CursorType.Default.toString = $estr;
+flash._Lib.CursorType.Default.__enum__ = flash._Lib.CursorType;
+flash._Vector = {};
+flash._Vector.Vector_Impl_ = function() { };
+$hxClasses["flash._Vector.Vector_Impl_"] = flash._Vector.Vector_Impl_;
+flash._Vector.Vector_Impl_.__name__ = ["flash","_Vector","Vector_Impl_"];
+flash._Vector.Vector_Impl_.__properties__ = {set_fixed:"set_fixed",get_fixed:"get_fixed",set_length:"set_length",get_length:"get_length"}
+flash._Vector.Vector_Impl_._new = function(length,fixed) {
+	return new Array();
+};
+flash._Vector.Vector_Impl_.concat = function(this1,a) {
+	var a1 = this1.concat(a);
+	return a1;
+};
+flash._Vector.Vector_Impl_.copy = function(this1) {
+	var a = this1.slice();
+	return a;
+};
+flash._Vector.Vector_Impl_.iterator = function(this1) {
+	return HxOverrides.iter(this1);
+};
+flash._Vector.Vector_Impl_.join = function(this1,sep) {
+	return this1.join(sep);
+};
+flash._Vector.Vector_Impl_.pop = function(this1) {
+	return this1.pop();
+};
+flash._Vector.Vector_Impl_.push = function(this1,x) {
+	return this1.push(x);
+};
+flash._Vector.Vector_Impl_.reverse = function(this1) {
+	this1.reverse();
+};
+flash._Vector.Vector_Impl_.shift = function(this1) {
+	return this1.shift();
+};
+flash._Vector.Vector_Impl_.unshift = function(this1,x) {
+	this1.unshift(x);
+};
+flash._Vector.Vector_Impl_.slice = function(this1,pos,end) {
+	var a = this1.slice(pos,end);
+	return a;
+};
+flash._Vector.Vector_Impl_.sort = function(this1,f) {
+	this1.sort(f);
+};
+flash._Vector.Vector_Impl_.splice = function(this1,pos,len) {
+	var a = this1.splice(pos,len);
+	return a;
+};
+flash._Vector.Vector_Impl_.toString = function(this1) {
+	return this1.toString();
+};
+flash._Vector.Vector_Impl_.indexOf = function(this1,x,from) {
+	if(from == null) from = 0;
+	var _g1 = from;
+	var _g = this1.length;
+	while(_g1 < _g) {
+		var i = _g1++;
+		if(this1[i] == x) return i;
+	}
+	return -1;
+};
+flash._Vector.Vector_Impl_.lastIndexOf = function(this1,x,from) {
+	if(from == null) from = 0;
+	var i = this1.length - 1;
+	while(i >= from) {
+		if(this1[i] == x) return i;
+		i--;
+	}
+	return -1;
+};
+flash._Vector.Vector_Impl_.ofArray = function(a) {
+	return flash._Vector.Vector_Impl_.concat(flash._Vector.Vector_Impl_._new(),a);
+};
+flash._Vector.Vector_Impl_.convert = function(v) {
+	return v;
+};
+flash._Vector.Vector_Impl_.fromArray = function(a) {
+	return a;
+};
+flash._Vector.Vector_Impl_.toArray = function(this1) {
+	return this1;
+};
+flash._Vector.Vector_Impl_.get_length = function(this1) {
+	return this1.length;
+};
+flash._Vector.Vector_Impl_.set_length = function(this1,value) {
+	if(value < this1.length) this1 = this1.slice(0,value);
+	while(value > this1.length) this1.push(null);
+	return value;
+};
+flash._Vector.Vector_Impl_.get_fixed = function(this1) {
+	return false;
+};
+flash._Vector.Vector_Impl_.set_fixed = function(this1,value) {
+	return value;
+};
+flash.accessibility = {};
+flash.accessibility.AccessibilityProperties = function() {
+	this.description = "";
+	this.forceSimple = false;
+	this.name = "";
+	this.noAutoLabeling = false;
+	this.shortcut = "";
+	this.silent = false;
+};
+$hxClasses["flash.accessibility.AccessibilityProperties"] = flash.accessibility.AccessibilityProperties;
+flash.accessibility.AccessibilityProperties.__name__ = ["flash","accessibility","AccessibilityProperties"];
+flash.accessibility.AccessibilityProperties.prototype = {
+	__class__: flash.accessibility.AccessibilityProperties
+};
+flash.display.Bitmap = function(inBitmapData,inPixelSnapping,inSmoothing) {
+	if(inSmoothing == null) inSmoothing = false;
+	flash.display.DisplayObject.call(this);
+	this.pixelSnapping = inPixelSnapping;
+	this.smoothing = inSmoothing;
+	if(inBitmapData != null) {
+		this.set_bitmapData(inBitmapData);
+		if(this.bitmapData.__referenceCount == 1) this.__graphics = new flash.display.Graphics(this.bitmapData.___textureBuffer);
+	}
+	if(this.pixelSnapping == null) this.pixelSnapping = flash.display.PixelSnapping.AUTO;
+	if(this.__graphics == null) this.__graphics = new flash.display.Graphics();
+	if(this.bitmapData != null) this.__render();
+};
+$hxClasses["flash.display.Bitmap"] = flash.display.Bitmap;
+flash.display.Bitmap.__name__ = ["flash","display","Bitmap"];
+flash.display.Bitmap.__super__ = flash.display.DisplayObject;
+flash.display.Bitmap.prototype = $extend(flash.display.DisplayObject.prototype,{
+	getBitmapSurfaceTransform: function(gfx) {
+		var extent = gfx.__extentWithFilters;
+		var fm = this.transform.__getFullMatrix(null);
+		fm.__translateTransformed(extent.get_topLeft());
+		return fm;
+	}
+	,toString: function() {
+		return "[Bitmap name=" + this.name + " id=" + this.___id + "]";
+	}
+	,validateBounds: function() {
+		if(this.get__boundsInvalid()) {
+			flash.display.DisplayObject.prototype.validateBounds.call(this);
+			if(this.bitmapData != null) {
+				var r = new flash.geom.Rectangle(0,0,this.bitmapData.get_width(),this.bitmapData.get_height());
+				if(r.width != 0 || r.height != 0) {
+					if(this.__boundsRect.width == 0 && this.__boundsRect.height == 0) this.__boundsRect = r.clone(); else this.__boundsRect.extendBounds(r);
+				}
+			}
+			if(this.scale9Grid != null) {
+				this.__boundsRect.width *= this.__scaleX;
+				this.__boundsRect.height *= this.__scaleY;
+				this.__width = this.__boundsRect.width;
+				this.__height = this.__boundsRect.height;
+			} else {
+				this.__width = this.__boundsRect.width * this.__scaleX;
+				this.__height = this.__boundsRect.height * this.__scaleY;
+			}
+		}
+	}
+	,__getGraphics: function() {
+		return this.__graphics;
+	}
+	,__getObjectUnderPoint: function(point) {
+		if(!this.get_visible()) return null; else if(this.bitmapData != null) {
+			var local = this.globalToLocal(point);
+			if(local.x < 0 || local.y < 0 || local.x > this.get_width() / this.get_scaleX() || local.y > this.get_height() / this.get_scaleY()) return null; else return this;
+		} else return flash.display.DisplayObject.prototype.__getObjectUnderPoint.call(this,point);
+	}
+	,__render: function(inMask,clipRect) {
+		if(!this.__combinedVisible) return;
+		if(this.bitmapData == null) return;
+		if((this.___renderFlags & 4) != 0 || (this.___renderFlags & 8) != 0) this.__validateMatrix();
+		if(this.bitmapData.___textureBuffer != this.__graphics.__surface) {
+			var imageDataLease = this.bitmapData.__lease;
+			if(imageDataLease != null && (this.__currentLease == null || imageDataLease.seed != this.__currentLease.seed || imageDataLease.time != this.__currentLease.time)) {
+				var srcCanvas = this.bitmapData.___textureBuffer;
+				this.__graphics.__surface.width = srcCanvas.width;
+				this.__graphics.__surface.height = srcCanvas.height;
+				this.__graphics.clear();
+				flash.Lib.__drawToSurface(srcCanvas,this.__graphics.__surface);
+				this.__currentLease = imageDataLease.clone();
+				this.___renderFlags |= 64;
+				if(this.parent != null) this.parent.___renderFlags |= 64;
+				this.__applyFilters(this.__graphics.__surface);
+				this.___renderFlags |= 32;
+			}
+		}
+		if(inMask != null) {
+			this.__applyFilters(this.__graphics.__surface);
+			var m = this.getBitmapSurfaceTransform(this.__graphics);
+			flash.Lib.__drawToSurface(this.__graphics.__surface,inMask,m,(this.parent != null?this.parent.__combinedAlpha:1) * this.alpha,clipRect,this.smoothing);
+		} else {
+			if((this.___renderFlags & 32) != 0) {
+				var m1 = this.getBitmapSurfaceTransform(this.__graphics);
+				flash.Lib.__setSurfaceTransform(this.__graphics.__surface,m1);
+				this.___renderFlags &= -33;
+			}
+			if(!this.__init) {
+				flash.Lib.__setSurfaceOpacity(this.__graphics.__surface,0);
+				this.__init = true;
+			} else flash.Lib.__setSurfaceOpacity(this.__graphics.__surface,(this.parent != null?this.parent.__combinedAlpha:1) * this.alpha);
+		}
+	}
+	,set_bitmapData: function(inBitmapData) {
+		if(inBitmapData != this.bitmapData) {
+			if(this.bitmapData != null) {
+				this.bitmapData.__referenceCount--;
+				if(this.__graphics.__surface == this.bitmapData.___textureBuffer) flash.Lib.__setSurfaceOpacity(this.bitmapData.___textureBuffer,0);
+			}
+			if(inBitmapData != null) inBitmapData.__referenceCount++;
+		}
+		this.___renderFlags |= 64;
+		if(this.parent != null) this.parent.___renderFlags |= 64;
+		this.bitmapData = inBitmapData;
+		return inBitmapData;
+	}
+	,__class__: flash.display.Bitmap
+	,__properties__: $extend(flash.display.DisplayObject.prototype.__properties__,{set_bitmapData:"set_bitmapData"})
+});
 flash.display._BitmapData = {};
 flash.display._BitmapData.MinstdGenerator = function(seed) {
 	if(seed == 0) this.value = 1; else this.value = seed;
@@ -14976,21 +16008,12 @@ flash.media.Sound.prototype = $extend(flash.events.EventDispatcher.prototype,{
 	}
 	,__load: function(stream,context,mime) {
 		if(mime == null) mime = "";
-		if(mime == null) {
-			var url = stream.url.split("?");
-			var extension;
-			var pos = url[0].lastIndexOf(".") + 1;
-			extension = HxOverrides.substr(url[0],pos,null);
-			mime = flash.media.Sound.__mimeForExtension(extension);
-		}
-		if(mime == null || !flash.media.Sound.__canPlayMime(mime)) haxe.Log.trace("Warning: '" + stream.url + "' with type '" + mime + "' may not play on this browser.",{ fileName : "Sound.hx", lineNumber : 144, className : "flash.media.Sound", methodName : "__load"});
 		this.__streamUrl = stream.url;
 		try {
 			this.__soundCache = new flash.net.URLLoader();
 			this.__addEventListeners();
 			this.__soundCache.load(stream);
 		} catch( e ) {
-			haxe.Log.trace("Warning: Could not preload '" + stream.url + "'",{ fileName : "Sound.hx", lineNumber : 159, className : "flash.media.Sound", methodName : "__load"});
 		}
 	}
 	,__removeEventListeners: function() {
@@ -14999,7 +16022,6 @@ flash.media.Sound.prototype = $extend(flash.events.EventDispatcher.prototype,{
 	}
 	,__onSoundLoadError: function(evt) {
 		this.__removeEventListeners();
-		haxe.Log.trace("Error loading sound '" + this.__streamUrl + "'",{ fileName : "Sound.hx", lineNumber : 206, className : "flash.media.Sound", methodName : "__onSoundLoadError"});
 		var evt1 = new flash.events.IOErrorEvent(flash.events.IOErrorEvent.IO_ERROR);
 		this.dispatchEvent(evt1);
 	}
@@ -15058,7 +16080,6 @@ flash.media.SoundChannel.prototype = $extend(flash.events.EventDispatcher.protot
 		}
 	}
 	,__onProgress: function(evt) {
-		haxe.Log.trace("sound progress: " + Std.string(evt),{ fileName : "SoundChannel.hx", lineNumber : 117, className : "flash.media.SoundChannel", methodName : "__onProgress"});
 	}
 	,__onSoundChannelFinished: function(evt) {
 		if(this.__audioCurrentLoop >= this.__audioTotalLoops) {
@@ -15083,7 +16104,6 @@ flash.media.SoundChannel.prototype = $extend(flash.events.EventDispatcher.protot
 		} else this.__audioCurrentLoop++;
 	}
 	,__onStalled: function(evt) {
-		haxe.Log.trace("sound stalled",{ fileName : "SoundChannel.hx", lineNumber : 173, className : "flash.media.SoundChannel", methodName : "__onStalled"});
 		if(this.__audio != null) this.__audio.load();
 	}
 	,set_soundTransform: function(v) {
@@ -18229,7 +19249,7 @@ openfl.display.Tilesheet.prototype = {
 	,__class__: openfl.display.Tilesheet
 };
 var worlds = {};
-worlds.World_1_1 = function(player) {
+worlds.World1 = function(player) {
 	com.haxepunk.Scene.call(this);
 	var b = new com.haxepunk.graphics.Backdrop("graphics/milkbackground.png",true,true);
 	b.scrollX = 0.5;
@@ -18237,53 +19257,33 @@ worlds.World_1_1 = function(player) {
 	var e = new com.haxepunk.Entity();
 	e.set_graphic(b);
 	this.add(e);
-	player.worldName.set_text("World 1-1");
-	this.add(player);
-	this.add(new entities.Straw(1000,1000));
-	this.spawn();
-};
-$hxClasses["worlds.World_1_1"] = worlds.World_1_1;
-worlds.World_1_1.__name__ = ["worlds","World_1_1"];
-worlds.World_1_1.__super__ = com.haxepunk.Scene;
-worlds.World_1_1.prototype = $extend(com.haxepunk.Scene.prototype,{
-	update: function() {
-		this.spawnTimer -= com.haxepunk.HXP.elapsed;
-		if(this.spawnTimer < 0) this.spawn();
-		com.haxepunk.Scene.prototype.update.call(this);
-	}
-	,spawn: function() {
-		var y = Math.random() * com.haxepunk.HXP.height;
-		this.add(new entities.Cow(com.haxepunk.HXP.width,y));
-		this.add(new entities.Kitten(com.haxepunk.HXP.width,y + 50));
-		this.spawnTimer = 1;
-	}
-	,__class__: worlds.World_1_1
-});
-worlds.World_1_2 = function(player) {
-	com.haxepunk.Scene.call(this);
-	var b = new com.haxepunk.graphics.Backdrop("graphics/milkbackground.png",true,true);
-	b.scrollX = 0.5;
-	b.scrollY = 0.5;
-	var e = new com.haxepunk.Entity();
-	e.set_graphic(b);
-	this.add(e);
-	player.worldName.set_text("World 1-2");
-	this.add(player);
-	this.add(new entities.Block(-1000,-1000));
-	this.add(new entities.Straw(1000,1000));
+	player.worldName.set_text("World 1");
+	player.worldLevel = 1;
 	this.createMap();
-	this.spawn();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(550,3600,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
 };
-$hxClasses["worlds.World_1_2"] = worlds.World_1_2;
-worlds.World_1_2.__name__ = ["worlds","World_1_2"];
-worlds.World_1_2.__super__ = com.haxepunk.Scene;
-worlds.World_1_2.prototype = $extend(com.haxepunk.Scene.prototype,{
+$hxClasses["worlds.World1"] = worlds.World1;
+worlds.World1.__name__ = ["worlds","World1"];
+worlds.World1.__super__ = com.haxepunk.Scene;
+worlds.World1.prototype = $extend(com.haxepunk.Scene.prototype,{
 	createMap: function() {
 		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
 			var $r;
 			var map = new com.haxepunk.tmx.TmxMap((function($this) {
 				var $r;
-				var xml = Xml.parse(openfl.Assets.getText("maps/world_1_1.tmx"));
+				var xml = Xml.parse(openfl.Assets.getText("maps/world1.tmx"));
 				var f = new haxe.xml.Fast(xml);
 				$r = f;
 				return $r;
@@ -18291,7 +19291,7 @@ worlds.World_1_2.prototype = $extend(com.haxepunk.Scene.prototype,{
 			$r = map;
 			return $r;
 		}(this)));
-		e.loadGraphic("graphics/milktileset.png",["walls"]);
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
 		e.loadMask("walls","terrain");
 		this.add(e);
 	}
@@ -18301,15 +19301,562 @@ worlds.World_1_2.prototype = $extend(com.haxepunk.Scene.prototype,{
 		com.haxepunk.Scene.prototype.update.call(this);
 	}
 	,spawn: function() {
-		var cowy = Math.random() * com.haxepunk.HXP.height * 3;
-		var cowx = Math.random() * com.haxepunk.HXP.width * 3;
-		var kitteny = Math.random() * com.haxepunk.HXP.height * 3;
-		var kittenx = Math.random() * com.haxepunk.HXP.width * 3;
-		this.add(new entities.Cow(cowx,cowy));
-		this.add(new entities.Kitten(kittenx,kitteny));
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 49) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 96) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 97) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 98) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
 		this.spawnTimer = 0.75;
 	}
-	,__class__: worlds.World_1_2
+	,__class__: worlds.World1
+});
+worlds.World10 = function(player) {
+	this.cookieMagic = new entities.ParticleController();
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/stars.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 10;
+	player.worldName.set_text("World 10");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.cookieMagicDelay = 10;
+	this.add(this.cookieMagic);
+	this.add(new entities.Cookie(1000,3800,new com.haxepunk.graphics.Image("graphics/normalcookie.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 30) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World10"] = worlds.World10;
+worlds.World10.__name__ = ["worlds","World10"];
+worlds.World10.__super__ = com.haxepunk.Scene;
+worlds.World10.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world10.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		if(this.cookieMagicDelay <= 0) {
+			this.cookieMagic.explosion(1064,3672,5);
+			this.cookieMagicDelay = 10;
+		}
+		this.cookieMagicDelay--;
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 20) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 39) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 59) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 79) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.3;
+	}
+	,__class__: worlds.World10
+});
+worlds.World2 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/milkbackground.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 2;
+	player.worldName.set_text("World 2");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	this.add(new entities.Straw(1000,1000));
+	this.add(new entities.Cookie(1250,3500,new com.haxepunk.graphics.Image("graphics/normalcookie.png")));
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World2"] = worlds.World2;
+worlds.World2.__name__ = ["worlds","World2"];
+worlds.World2.__super__ = com.haxepunk.Scene;
+worlds.World2.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world2.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 49) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 96) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 97) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 98) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.75;
+	}
+	,__class__: worlds.World2
+});
+worlds.World3 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/milkbackground.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 3;
+	player.worldName.set_text("World 3");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(100,2500,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World3"] = worlds.World3;
+worlds.World3.__name__ = ["worlds","World3"];
+worlds.World3.__super__ = com.haxepunk.Scene;
+worlds.World3.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world3.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 47) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 93) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 95) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 97) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.7;
+	}
+	,__class__: worlds.World3
+});
+worlds.World4 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/milkbackground.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 4;
+	player.worldName.set_text("World 4");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(1125,800,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World4"] = worlds.World4;
+worlds.World4.__name__ = ["worlds","World4"];
+worlds.World4.__super__ = com.haxepunk.Scene;
+worlds.World4.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world4.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 47) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 93) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 95) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 97) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.7;
+	}
+	,__class__: worlds.World4
+});
+worlds.World5 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/ocean.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 5;
+	player.worldName.set_text("World 5");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(1650,3650,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 20) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World5"] = worlds.World5;
+worlds.World5.__name__ = ["worlds","World5"];
+worlds.World5.__super__ = com.haxepunk.Scene;
+worlds.World5.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world5.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 45) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 90) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 93) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 96) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.6;
+	}
+	,__class__: worlds.World5
+});
+worlds.World6 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/ocean.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 6;
+	player.worldName.set_text("World 6");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(150,3675,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World6"] = worlds.World6;
+worlds.World6.__name__ = ["worlds","World6"];
+worlds.World6.__super__ = com.haxepunk.Scene;
+worlds.World6.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world6.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 45) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 90) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 93) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 96) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.6;
+	}
+	,__class__: worlds.World6
+});
+worlds.World7 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/ocean.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 7;
+	player.worldName.set_text("World 7");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-250 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -250 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(1550,350,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 30) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World7"] = worlds.World7;
+worlds.World7.__name__ = ["worlds","World7"];
+worlds.World7.__super__ = com.haxepunk.Scene;
+worlds.World7.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world7.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 44) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 87) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 91) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 95) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.5;
+	}
+	,__class__: worlds.World7
+});
+worlds.World8 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/stars.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 8;
+	player.worldName.set_text("World 8");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(1750,3500,new com.haxepunk.graphics.Image("graphics/mmcookielarge.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World8"] = worlds.World8;
+worlds.World8.__name__ = ["worlds","World8"];
+worlds.World8.__super__ = com.haxepunk.Scene;
+worlds.World8.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world8.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 42) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 84) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 89) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 94) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.5;
+	}
+	,__class__: worlds.World8
+});
+worlds.World9 = function(player) {
+	com.haxepunk.Scene.call(this);
+	var b = new com.haxepunk.graphics.Backdrop("graphics/stars.png",true,true);
+	b.scrollX = 0.5;
+	b.scrollY = 0.5;
+	var e = new com.haxepunk.Entity();
+	e.set_graphic(b);
+	this.add(e);
+	player.worldLevel = 9;
+	player.worldName.set_text("World 9");
+	this.createMap();
+	this.add(player);
+	player.moveBy(com.haxepunk.HXP.halfWidth - (player.followCamera?player.x + com.haxepunk.HXP.camera.x:player.x),-1000 - (player.followCamera?player.y + com.haxepunk.HXP.camera.y:player.y),null,false);
+	this.camera = new flash.geom.Point();
+	this.camera.x = 0;
+	this.camera.y = -1000 - com.haxepunk.HXP.halfHeight;
+	this.add(new entities.Cookie(1175,1225,new com.haxepunk.graphics.Image("graphics/pbcookie.png")));
+	entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
+	this.add(entities.GV.PARTICLE_EMITTER);
+	var _g = 0;
+	while(_g < 15) {
+		var i = _g++;
+		this.spawn();
+	}
+};
+$hxClasses["worlds.World9"] = worlds.World9;
+worlds.World9.__name__ = ["worlds","World9"];
+worlds.World9.__super__ = com.haxepunk.Scene;
+worlds.World9.prototype = $extend(com.haxepunk.Scene.prototype,{
+	createMap: function() {
+		var e = new com.haxepunk.tmx.TmxEntity((function($this) {
+			var $r;
+			var map = new com.haxepunk.tmx.TmxMap((function($this) {
+				var $r;
+				var xml = Xml.parse(openfl.Assets.getText("maps/world9.tmx"));
+				var f = new haxe.xml.Fast(xml);
+				$r = f;
+				return $r;
+			}($this)));
+			$r = map;
+			return $r;
+		}(this)));
+		e.loadGraphic("graphics/milktileset.png",["background","background2","walls"]);
+		e.loadMask("walls","terrain");
+		this.add(e);
+	}
+	,update: function() {
+		this.spawnTimer -= com.haxepunk.HXP.elapsed;
+		if(this.spawnTimer < 0) this.spawn();
+		com.haxepunk.Scene.prototype.update.call(this);
+	}
+	,spawn: function() {
+		var enemyY = Math.random() * 4000;
+		var enemyX = Math.random() * 2000;
+		var randomSpawn = Std.random(100);
+		if(randomSpawn <= 37) this.add(new entities.Cow(enemyX,enemyY)); else if(randomSpawn <= 69) this.add(new entities.Kitten(enemyX,enemyY)); else if(randomSpawn <= 79) this.add(new entities.MindControlCow(enemyX,enemyY)); else if(randomSpawn <= 89) this.add(new entities.MindControlKitten(enemyX,enemyY)); else if(randomSpawn <= 99) this.add(new entities.Bacteria(enemyX,enemyY));
+		this.spawnTimer = 0.4;
+	}
+	,__class__: worlds.World9
 });
 function $iterator(o) { if( o instanceof Array ) return function() { return HxOverrides.iter(o); }; return typeof(o.iterator) == 'function' ? $bind(o,o.iterator) : o.iterator; }
 var $_, $fid = 0;
@@ -18368,7 +19915,6 @@ flash.text.Font.DEFAULT_FONT_SCALE = 9.0;
 flash.text.Font.DEFAULT_FONT_NAME = "Bitstream_Vera_Sans";
 flash.text.Font.DEFAULT_CLASS_NAME = "flash.text.Font";
 flash.text.Font.__registeredFonts = new Array();
-assets.Assets.GRAPHIC_TERRAIN_BLOCK = new String("graphics/block.png");
 flash.display.Graphics.TILE_SCALE = 1;
 flash.display.Graphics.TILE_ROTATION = 2;
 flash.display.Graphics.TILE_RGB = 4;
@@ -18489,6 +20035,9 @@ com.haxepunk.HXP.zero = new flash.geom.Point();
 com.haxepunk.HXP.rect = new flash.geom.Rectangle();
 com.haxepunk.HXP.matrix = new flash.geom.Matrix();
 com.haxepunk.HXP.sprite = new flash.display.Sprite();
+com.haxepunk.Sfx._sounds = new haxe.ds.StringMap();
+com.haxepunk.Sfx._typePlaying = new haxe.ds.StringMap();
+com.haxepunk.Sfx._typeTransforms = new haxe.ds.StringMap();
 com.haxepunk.debug.Console.BIG_WIDTH_THRESHOLD = 420;
 com.haxepunk.graphics.Image._flips = new haxe.ds.StringMap();
 com.haxepunk.graphics.Text.tag_re = new EReg("<([^>]+)>([^(?:</)]+)</[^>]+>","g");
@@ -18692,10 +20241,10 @@ com.haxepunk.utils.Key.NUMPAD_DIVIDE = 111;
 com.haxepunk.utils.Key.NUMPAD_ENTER = 108;
 com.haxepunk.utils.Key.NUMPAD_MULTIPLY = 106;
 com.haxepunk.utils.Key.NUMPAD_SUBTRACT = 109;
+entities.GV.PARTICLE_EMITTER = new entities.ParticleController();
 entities.Player.maxVelocity = 8;
-entities.Player.speed = 3;
-entities.Player.drag = 1.6;
-entities.Player.gravity = 2.4;
+entities.Player.speed = 5;
+entities.Player.drag = 1;
 flash.display._BitmapData.MinstdGenerator.a = 16807;
 flash.display._BitmapData.MinstdGenerator.m = -2147483648 - 1;
 flash.display.BitmapDataChannel.ALPHA = 8;
@@ -19031,5 +20580,3 @@ openfl.display.Tilesheet.TILE_BLEND_MULTIPLY = 131072;
 openfl.display.Tilesheet.TILE_BLEND_SCREEN = 262144;
 ApplicationMain.main();
 })();
-
-//# sourceMappingURL=IntoTheMilk.js.map

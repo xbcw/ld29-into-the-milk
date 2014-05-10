@@ -1,39 +1,10 @@
-/*package entities;
-
-import com.haxepunk.graphics.Image;
-import com.haxepunk.masks.Pixelmask;
-
-class Cow extends Enemy
-{
-    public function new(x:Float, y:Float)
-    {
-        super(x, y);
-
-        graphic = new Image("graphics/moocowleft.png");
-		graphic.x = -18;
-		graphic.y = -6;
-		//mask = new Pixelmask("graphics/moocowleft.png", -32, -16);
-        setHitbox(104, 57);
-        type = "enemy";
-    }
-
-    public override function update()
-    {
-        moveBy( -5, 0, "player");
-		
-		if ( this.x < -32)
-		{
-			scene.remove(this);
-		}
-    }
-}*/
-
 package entities;
 
 import com.haxepunk.graphics.Image;
 import com.haxepunk.masks.Pixelmask;
 import com.haxepunk.Entity;
 import com.haxepunk.HXP;
+import entities.GV.PARTICLE_EMITTER;
 
 class Cow extends Enemy
 {
@@ -59,6 +30,18 @@ class Cow extends Enemy
 
     public override function update()
     {
+		if (y < 128 || x < 0  || x > 2100)
+		{
+			gravity = 7;
+		}
+		else if (y < 160)
+		{
+			gravity = 5;
+		}
+		else
+		{
+			gravity = 4;
+		}		
 		var e:Entity = collide("terrain", x, y + velocityY + gravity);
 		if (e == null)
 		{
@@ -67,7 +50,15 @@ class Cow extends Enemy
 		else
 		{
 			// trace("Colliding with terrain on X");
+			if (stuck == true)
+			{
+				PARTICLE_EMITTER.explosion(x + Std.random(20), y + Std.random(20), 20);
+				PARTICLE_EMITTER.explosion(x-Std.random(20), y-Std.random(20), 20);
+				PARTICLE_EMITTER.explosion(x, y, 20);
+				scene.remove(this);
+			}
 			moveBy(0, 0);
+			stuck = true;
 		}
 		
 		var e:Entity = collide("terrain", x + velocityX, y);
@@ -93,6 +84,9 @@ class Cow extends Enemy
 			// trace("Colliding with terrain on X");
 			if (stuck == true)
 			{
+				PARTICLE_EMITTER.explosion(x + Std.random(20), y + Std.random(20), 15);
+				PARTICLE_EMITTER.explosion(x-Std.random(20), y-Std.random(20), 15);
+				PARTICLE_EMITTER.explosion(x, y, 20);
 				scene.remove(this);
 			}
 			moveBy(0, 0);
@@ -100,8 +94,11 @@ class Cow extends Enemy
 			stuck = true;
 		}
 		
-		if ( this.x < -32 || ttl <= 0 )
+		if (ttl <= 0 )
 		{
+			PARTICLE_EMITTER.explosion(x + Std.random(20), y + Std.random(20), 15);
+			PARTICLE_EMITTER.explosion(x-Std.random(20), y-Std.random(20), 15);
+			PARTICLE_EMITTER.explosion(x, y, 20);
 			scene.remove(this);
 		}
 		if (ttl % 500 == 0)

@@ -123,6 +123,13 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/bacteriaguy.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/block.png", loader);
 		total ++;
 		
@@ -130,42 +137,14 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
-		loaders.set("graphics/bus.png", loader);
-		total ++;
-		
-		
-		
-		
-		var loader:Loader = new Loader();
-		loaders.set("graphics/bus2.png", loader);
-		total ++;
-		
-		
-		
-		
-		var loader:Loader = new Loader();
-		loaders.set("graphics/cow.png", loader);
-		total ++;
-		
-		
-		
-		
-		var loader:Loader = new Loader();
-		loaders.set("graphics/cow2.png", loader);
-		total ++;
-		
-		
-		
-		
-		var loader:Loader = new Loader();
-		loaders.set("graphics/drinkingstraw.jpg", loader);
-		total ++;
-		
-		
-		
-		
-		var loader:Loader = new Loader();
 		loaders.set("graphics/drinkingstraw.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/full cookie crumb.png", loader);
 		total ++;
 		
 		
@@ -200,6 +179,27 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/jetpackkitty.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/jetpackkittyleft.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/jetpackkittyright.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/kitty.png", loader);
 		total ++;
 		
@@ -207,14 +207,21 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
-		loaders.set("graphics/kitty64.png", loader);
+		loaders.set("graphics/kittyleft.png", loader);
 		total ++;
 		
 		
 		
 		
 		var loader:Loader = new Loader();
-		loaders.set("graphics/milk-vector.jpg", loader);
+		loaders.set("graphics/kittyright.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/Left cookie crumb.png", loader);
 		total ++;
 		
 		
@@ -228,6 +235,20 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
+		loaders.set("graphics/Milkshipleft.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/Milkshipright.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
 		loaders.set("graphics/milktileset.png", loader);
 		total ++;
 		
@@ -235,7 +256,21 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
-		loaders.set("graphics/Moocow.png", loader);
+		loaders.set("graphics/mindcontrolmoocowleft.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/mindcontrolmoocowright.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/mmcookielarge.png", loader);
 		total ++;
 		
 		
@@ -249,7 +284,28 @@ class ApplicationMain {
 		
 		
 		var loader:Loader = new Loader();
-		loaders.set("graphics/plane.png", loader);
+		loaders.set("graphics/moocowright.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/normalcookie.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/ocean.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/pbcookie.png", loader);
 		total ++;
 		
 		
@@ -262,12 +318,33 @@ class ApplicationMain {
 		
 		
 		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/Right cookie crumb.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/stars.png", loader);
+		total ++;
+		
+		
+		
+		
+		var loader:Loader = new Loader();
+		loaders.set("graphics/straw.png", loader);
+		total ++;
+		
+		
+		
+		
 		
 		
 		
 		var urlLoader:URLLoader = new URLLoader();
 		urlLoader.dataFormat = BINARY;
-		urlLoaders.set("maps/world_1_1.tmx", urlLoader);
+		urlLoaders.set("maps/world1.tmx", urlLoader);
 		total ++;
 		
 		
@@ -275,7 +352,71 @@ class ApplicationMain {
 		
 		var urlLoader:URLLoader = new URLLoader();
 		urlLoader.dataFormat = BINARY;
-		urlLoaders.set("maps/world_1_2.tmx", urlLoader);
+		urlLoaders.set("maps/world10.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world2.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world3.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world4.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world5.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world6.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world7.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world8.tmx", urlLoader);
+		total ++;
+		
+		
+		
+		
+		var urlLoader:URLLoader = new URLLoader();
+		urlLoader.dataFormat = BINARY;
+		urlLoaders.set("maps/world9.tmx", urlLoader);
 		total ++;
 		
 		
